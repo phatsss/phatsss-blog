@@ -1,304 +1,273 @@
 {
   "theme.ErrorPageContent.title": {
-    "message": "This page crashed.",
-    "description": "The title of the fallback page when the page crashed"
+    "message": "ຫນ້ານີ້ລົ້ມເຫລວ",
+    "description": "ຫົວຂໍ້ຂອງຫນ້າທີ່ເກີດຂໍ້ຜິດພາດ"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
-    "description": "The ARIA label for the back to top button"
+    "message": "ກັບໄປທາງເທີງ",
+    "description": "ປ້າຍກຳກັບ ARIA ສຳລັບປຸ່ມກັບໄປທາງເທີງ"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Blog list page navigation",
-    "description": "The ARIA label for the blog pagination"
+    "message": "ການນຳທາງລາຍການບລັອກ",
+    "description": "ປ້າຍກຳກັບ ARIA ສຳລັບການເລືອກຫນ້າບລັອກ"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Newer entries",
-    "description": "The label used to navigate to the newer blog posts page (previous page)"
+    "message": "ເຫດການໃຫມ່",
+    "description": "ປ້າຍກຳກັບສຳລັບເຫດການໃຫມ່"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Older entries",
-    "description": "The label used to navigate to the older blog posts page (next page)"
+    "message": "ເຫດການເກົ່າ",
+    "description": "ປ້າຍກຳກັບສຳລັບເຫດການເກົ່າ"
   },
   "theme.blog.archive.title": {
-    "message": "Archive",
-    "description": "The page & hero title of the blog archive page"
+    "message": "ບັນທຶກເຫດການ",
+    "description": "ຫົວຂໍ້ຂອງບັນທຶກເຫດການ"
   },
   "theme.blog.archive.description": {
-    "message": "Archive",
-    "description": "The page & hero description of the blog archive page"
+    "message": "ບັນທຶກເຫດການ",
+    "description": "ຄຳອະທິບາຍຂອງບັນທຶກເຫດການ"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Blog post page navigation",
-    "description": "The ARIA label for the blog posts pagination"
+    "message": "ການນຳທາງໂພດບລັອກ",
+    "description": "ປ້າຍກຳກັບ ARIA ສຳລັບໂພດບລັອກ"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Newer post",
-    "description": "The blog post button label to navigate to the newer/previous post"
+    "message": "ໂພດໃຫມ່",
+    "description": "ປ້າຍກຳກັບປຸ່ມໂພດໃຫມ່"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Older post",
-    "description": "The blog post button label to navigate to the older/next post"
+    "message": "ໂພດເກົ່າ",
+    "description": "ປ້າຍກຳກັບປຸ່ມໂພດເກົ່າ"
   },
   "theme.tags.tagsPageLink": {
-    "message": "View all tags",
-    "description": "The label of the link targeting the tag list page"
+    "message": "ເບິ່ງປ້າຍກຳກັບທັງຫມົດ",
+    "description": "ປ້າຍກຳກັບລິ້ງເຫັນປ້າຍກຳກັບ"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
-    "description": "The ARIA label for the breadcrumbs"
+    "message": "ເສັ້ນທາງ",
+    "description": "ປ້າຍກຳກັບ ARIA ສຳລັບເສັ້ນທາງ"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 item|{count} items",
-    "description": "The default description for a category card in the generated index about how many items this category includes"
+    "message": "1 ລາຍການ|{count} ລາຍການ",
+    "description": "ຄຳອະທິບາຍໝວດໝູ່"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Docs pages",
-    "description": "The ARIA label for the docs pagination"
+    "message": "ເອກະສານ",
+    "description": "ປ້າຍກຳກັບ ARIA ສຳລັບເອກະສານ"
   },
   "theme.docs.paginator.previous": {
-    "message": "Previous",
-    "description": "The label used to navigate to the previous doc"
+    "message": "ກ່ອນຫນ້າ",
+    "description": "ປ້າຍກຳກັບເອກະສານກ່ອນຫນ້າ"
   },
   "theme.docs.paginator.next": {
-    "message": "Next",
-    "description": "The label used to navigate to the next doc"
+    "message": "ຕໍ່ໄປ",
+    "description": "ປ້າຍກຳກັບເອກະສານຕໍ່ໄປ"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Switch between dark and light mode (currently {mode})",
-    "description": "The ARIA label for the navbar color mode toggle"
+    "message": "ປ່ຽນລະຫວ່າງໂໝດມືດ ແລະ ແສງ (ປັດຈຸບັນ {mode})",
+    "description": "ປ້າຍກຳກັບ ARIA ສຳລັບການປ່ຽນໂໝດສີ"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
-    "description": "The name for the dark color mode"
+    "message": "ໂໝດມືດ",
+    "description": "ຊື່ໂໝດມືດ"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "light mode",
-    "description": "The name for the light color mode"
+    "message": "ໂໝດແສງ",
+    "description": "ຊື່ໂໝດແສງ"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "One doc tagged|{count} docs tagged",
-    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "message": "ເອກະສານ 1 ລາຍການ|ເອກະສານ {count} ລາຍການ",
+    "description": "ປ້າຍກຳກັບຈຳນວນເອກະສານ"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} with \"{tagName}\"",
-    "description": "The title of the page for a docs tag"
+    "message": "{nDocsTagged} ດ້ວຍ \"{tagName}\"",
+    "description": "ຫົວຂໍ້ເອກະສານຕາມປ້າຍກຳກັບ"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "ລຸ້ນ: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
-    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+    "message": "ນີ້ແມ່ນເອກະສານທີ່ບໍ່ໄດ້ຖືກປ່ອຍອອກມາສຳລັບ {siteTitle} ລຸ້ນ {versionLabel}",
+    "description": "ປ້າຍກຳກັບເອກະສານທີ່ຍັງບໍ່ໄດ້ປ່ອຍ"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
-    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+    "message": "ນີ້ແມ່ນເອກະສານສຳລັບ {siteTitle} ລຸ້ນ {versionLabel} ທີ່ບໍ່ໄດ້ຮັບການບຳລຸງຮັກສາ",
+    "description": "ປ້າຍກຳກັບເອກະສານທີ່ບໍ່ໄດ້ຮັກສາ"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
-    "description": "The label used to tell the user to check the latest version"
+    "message": "ສຳລັບເອກະສານປັດຈຸບັນ ໃຫ້ເບິ່ງ {latestVersionLink} ({versionLabel})",
+    "description": "ຄຳແນະນຳລຸ້ນລ່າສຸດ"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "latest version",
-    "description": "The label used for the latest version suggestion link label"
+    "message": "ລຸ້ນລ່າສຸດ",
+    "description": "ລິ້ງລຸ້ນລ່າສຸດ"
   },
   "theme.common.editThisPage": {
-    "message": "Edit this page",
-    "description": "The link label to edit the current page"
+    "message": "ແກ້ໄຂຫນ້ານີ້",
+    "description": "ປ້າຍກຳກັບແກ້ໄຂຫນ້າ"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Direct link to {heading}",
-    "description": "Title for link to heading"
+    "message": "ລິ້ງໂດຍຕົງໄປຫາ {heading}",
+    "description": "ຫົວຂໍ້ລິ້ງໂດຍຕົງ"
   },
   "theme.lastUpdated.atDate": {
-    "message": " on {date}",
-    "description": "The words used to describe on which date a page has been last updated"
+    "message": " ໃນວັນທີ {date}",
+    "description": "ວັນທີອັບເດດຫລ້າສຸດ"
   },
   "theme.lastUpdated.byUser": {
-    "message": " by {user}",
-    "description": "The words used to describe by who the page has been last updated"
+    "message": " ໂດຍ {user}",
+    "description": "ຜູ້ອັບເດດຫລ້າສຸດ"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Last updated{atDate}{byUser}",
-    "description": "The sentence used to display when a page has been last updated, and by who"
+    "message": "ອັບເດດຫລ້າສຸດ{atDate}{byUser}",
+    "description": "ຂໍ້ຄວາມອັບເດດຫລ້າສຸດ"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
-    "description": "The label for the navbar versions dropdown on mobile view"
+    "message": "ລຸ້ນ",
+    "description": "ປ້າຍກຳກັບລຸ້ນໃນໂທລະສັບ"
   },
   "theme.NotFound.title": {
-    "message": "Page Not Found",
-    "description": "The title of the 404 page"
+    "message": "ບໍ່ພົບຫນ້າທີ່ຕ້ອງການ",
+    "description": "ຫົວຂໍ້ຫນ້າ 404"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tags:",
-    "description": "The label alongside a tag list"
+    "message": "ປ້າຍກຳກັບ:",
+    "description": "ປ້າຍກຳກັບລາຍຊື່"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
-    "description": "The ARIA label for close button of announcement bar"
+    "message": "ປິດ",
+    "description": "ປ້າຍກຳກັບ ARIA ປຸ່ມປິດ"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog recent posts navigation",
-    "description": "The ARIA label for recent posts in the blog sidebar"
+    "message": "ການນຳທາງໂພດບລັອກຫລ້າສຸດ",
+    "description": "ປ້າຍກຳກັບ ARIA ສຳລັບໂພດບລັອກ"
   },
   "theme.admonition.caution": {
-    "message": "caution",
-    "description": "The default label used for the Caution admonition (:::caution)"
+    "message": "ເຕືອນ",
+    "description": "ປ້າຍກຳກັບເຕືອນ"
   },
   "theme.admonition.danger": {
-    "message": "danger",
-    "description": "The default label used for the Danger admonition (:::danger)"
+    "message": "ອັນຕະລາຍ",
+    "description": "ປ້າຍກຳກັບອັນຕະລາຍ"
   },
   "theme.admonition.info": {
-    "message": "info",
-    "description": "The default label used for the Info admonition (:::info)"
+    "message": "ຂໍ້ມູນ",
+    "description": "ປ້າຍກຳກັບຂໍ້ມູນ"
   },
   "theme.admonition.note": {
-    "message": "note",
-    "description": "The default label used for the Note admonition (:::note)"
+    "message": "ບັນທຶກ",
+    "description": "ປ້າຍກຳກັບບັນທຶກ"
   },
   "theme.admonition.tip": {
-    "message": "tip",
-    "description": "The default label used for the Tip admonition (:::tip)"
+    "message": "ຄຳແນະນຳ",
+    "description": "ປ້າຍກຳກັບຄຳແນະນຳ"
   },
   "theme.admonition.warning": {
-    "message": "warning",
-    "description": "The default label used for the Warning admonition (:::warning)"
+    "message": "ເຕືອນ",
+    "description": "ປ້າຍກຳກັບເຕືອນ"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
-    "description": "The title attribute for toggle word wrapping button of code block lines"
+    "message": "ປ່ຽນການຫຸ້ມຂໍ້ຄວາມ",
+    "description": "ປ້າຍກຳກັບການຫຸ້ມຂໍ້ຄວາມ"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
-    "description": "The copied button label on code blocks"
+    "message": "ຄັດລອກແລ້ວ",
+    "description": "ປ້າຍກຳກັບຄັດລອກແລ້ວ"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copy code to clipboard",
-    "description": "The ARIA label for copy code blocks button"
+    "message": "ຄັດລອກລະຫັດ",
+    "description": "ປ້າຍກຳກັບ ARIA ປຸ່ມຄັດລອກ"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copy",
-    "description": "The copy button label on code blocks"
+    "message": "ຄັດລອກ",
+    "description": "ປ້າຍກຳກັບຄັດລອກ"
+  },
+ "theme.CodeBlock.wordWrapToggle": {
+    "message": "ສະຫຼັບການຫຸ້ມຄຳ",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Expand sidebar category '{label}'",
+    "message": "ຂະຫຍາຍໝວດໝູ່ແຖບຂ້າງ '{label}'",
     "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Collapse sidebar category '{label}'",
+    "message": "ຫຍໍ້ໝວດໝູ່ແຖບຂ້າງ '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
-    "description": "The label for the mobile language switcher dropdown"
+  "theme.NavBar.navAriaLabel": {
+    "message": "ຫລັກ",
+    "description": "The ARIA label for the main navigation"
   },
   "theme.NotFound.p1": {
-    "message": "We could not find what you were looking for.",
+    "message": "ພວກເຮົາບໍ່ສາມາດຊອກຫາສິ່ງທີ່ທ່ານກຳລັງຊອກຫາ.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "message": "ກະລຸນາຕິດຕໍ່ຜູ້ເປັນເຈົ້າຂອງເວັບໄຊທີ່ເຊື່ອມຕໍ່ທ່ານມາຍັງ URL ເດີມ ແລະ ໃຫ້ພວກເຂົາຮູ້ວ່າລິງກ໌ຂອງພວກເຂົາຊ້ຳ.",
     "description": "The 2nd paragraph of the 404 page"
   },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "ພາສາ",
+    "description": "The label for the mobile language switcher dropdown"
+  },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "On this page",
+    "message": "ໃນຫນ້ານີ້",
     "description": "The label used by the button on the collapsible TOC component"
   },
-  "theme.NavBar.navAriaLabel": {
-    "message": "Main",
-    "description": "The ARIA label for the main navigation"
-  },
   "theme.blog.post.readMore": {
-    "message": "Read more",
+    "message": "ອ່ານເພີ່ມເຕີມ",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Read more about {title}",
+    "message": "ອ່ານເພີ່ມເຕີມກ່ຽວກັບ {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "One min read|{readingTime} min read",
+    "message": "ອ່ານໃນ 1 ນາທີ|ອ່ານໃນ {readingTime} ນາທີ",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
-  "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Collapse sidebar",
-    "description": "The title attribute for collapse button of doc sidebar"
-  },
-  "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Collapse sidebar",
-    "description": "The title attribute for collapse button of doc sidebar"
-  },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "ຫນ້າຫລັກ",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Docs sidebar",
+    "message": "ແຖບຂ້າງເອກະສານ",
     "description": "The ARIA label for the sidebar navigation"
   },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "ຫຍໍ້ແຖບຂ້າງ",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "ຫຍໍ້ແຖບຂ້າງ",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
+    "message": "ປິດແຖບນຳທາງ",
     "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Toggle navigation bar",
+    "message": "ສະຫຼັບແຖບນຳທາງ",
     "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Back to main menu",
+    "message": "← ກັບໄປຫາເມນູຫລັກ",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Expand sidebar",
+    "message": "ຂະຫຍາຍແຖບຂ້າງ",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Expand sidebar",
+    "message": "ຂະຫຍາຍແຖບຂ້າງ",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
-  "theme.SearchPage.existingResultsTitle": {
-    "message": "Search results for \"{query}\"",
-    "description": "The search page title for non-empty query"
-  },
-  "theme.SearchPage.emptyResultsTitle": {
-    "message": "Search the documentation",
-    "description": "The search page title for empty query"
-  },
-  "theme.SearchPage.searchContext.everywhere": {
-    "message": "Everywhere"
-  },
-  "theme.SearchPage.documentsFound.plurals": {
-    "message": "1 document found|{count} documents found",
-    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
-  },
-  "theme.SearchPage.noResultsText": {
-    "message": "No documents were found",
-    "description": "The paragraph for empty search result"
-  },
-  "theme.SearchBar.noResultsText": {
-    "message": "No results"
-  },
-  "theme.SearchBar.seeAllOutsideContext": {
-    "message": "See all results outside \"{context}\""
-  },
-  "theme.SearchBar.searchInContext": {
-    "message": "See all results within \"{context}\""
-  },
-  "theme.SearchBar.seeAll": {
-    "message": "See all results"
-  },
-  "theme.SearchBar.label": {
-    "message": "Search",
-    "description": "The ARIA label and placeholder for search button"
-  },
   "theme.blog.post.plurals": {
-    "message": "One post|{count} posts",
+    "message": "1 ຂໍ້ຄວາມ|{count} ຂໍ້ຄວາມ",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} tagged with \"{tagName}\"",
+    "message": "{nPosts} ທີ່ມີປ້າຍ \"{tagName}\"",
     "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
@@ -306,43 +275,78 @@
     "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Authors",
+    "message": "ຜູ້ຂຽນ",
     "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "View all authors",
+    "message": "ເບິ່ງຜູ້ຂຽນທັງໝົດ",
     "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "This author has not written any posts yet.",
+    "message": "ຜູ້ຂຽນນີ້ຍັງບໍ່ມີໂພສໃດໆ.",
     "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Unlisted page",
+    "message": "ໜ້າທີ່ບໍ່ໄດ້ລົງທະບຽນ",
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "message": "ໜ້ານີ້ບໍ່ໄດ້ຖືກດັດແກ້ໃຫ້ເຄື່ອງຈັກຄົ້ນຫາມາອ່ານ, ມີແຕ່ຜູ້ທີ່ມີລິ້ງທົງໄປທີ່ເຂົ້າໄດ້.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Draft page",
+    "message": "ໜ້າຮ່າງ",
     "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "message": "ໜ້ານີ້ແມ່ນຫນ້າຮ່າງ ແມ່ນຈະເຫັນສະເພາະໃນໜ້າພັດທະນາ ແລະຈະບໍ່ຖືກນຳໃຊ້ໃນການຜະລິດ.",
     "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Try again",
+    "message": "ລອງໃໝ່",
     "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Skip to main content",
+    "message": "ຂ້າມໄປຫາເນື້ອໃນຫຼັກ",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tags",
+    "message": "ແທັກ",
     "description": "The title of the tag list page"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "ຜົນການຄົ້ນຫາສໍາລັບ \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "ຄົ້ນຫາເອກະສານ",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.searchContext.everywhere": {
+    "message": "ທົ່ວໄປ"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "ພົບເອກະສານ 1 ອັນ|ພົບ {count} ເອກະສານ",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "ບໍ່ພົບເອກະສານໃດໆ",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchBar.noResultsText": {
+    "message": "ບໍ່ມີຜົນການຄົ້ນຫາ"
+  },
+  "theme.SearchBar.seeAllOutsideContext": {
+    "message": "ເບິ່ງຜົນທັງໝົດນອກ \"{context}\""
+  },
+  "theme.SearchBar.searchInContext": {
+    "message": "ເບິ່ງຜົນທີ່ຢູ່ໃນ \"{context}\""
+  },
+  "theme.SearchBar.seeAll": {
+    "message": "ເບິ່ງຜົນທັງໝົດ"
+  },
+  "theme.SearchBar.label": {
+    "message": "ຄົ້ນຫາ",
+    "description": "The ARIA label and placeholder for search button"
   }
 }
