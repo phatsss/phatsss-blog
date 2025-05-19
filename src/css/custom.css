@@ -3,9 +3,12 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+/* Import the Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;700&display=swap');
 
 /* You can override the default Infima variables here. */
 :root {
+  --ifm-font-family-base: 'Noto Sans Lao', sans-serif;
   --ifm-color-primary: #00ccff;
   /* Cyan Blue from logo cat */
   --ifm-color-primary-dark: #00b8e6;
@@ -35,4 +38,13 @@
   --ifm-color-primary-lighter: #66e0ff;
   --ifm-color-primary-lightest: #99eaff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Sans Lao', sans-serif;
 }
