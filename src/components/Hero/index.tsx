@@ -1,10 +1,11 @@
 import React, { JSX } from 'react';
 import styles from './styles.module.css';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import CardPreview from './CardPreview';
 
 export default function Hero(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
-  
+  const { siteConfig } = useDocusaurusContext();
+
   return (
     <section className={styles.hero}>
       <div className={styles.heroContent}>
@@ -25,14 +26,15 @@ export default function Hero(): JSX.Element {
         </div>
       </div>
       <div className={styles.heroImageContainer}>
-        <div className={styles.avatarContainer}>
-          {/* You can replace this with a 3D avatar or image */}
-          <img 
-            src="/img/phatsss-logo.png" 
-            alt="Developer Avatar" 
-            className={styles.avatar}
-          />
-        </div>
+        <CardPreview >
+          <div className={styles.avatarContainer}>
+            <img
+              src="/img/phatsss-logo.svg"
+              alt="Developer Avatar"
+              className={styles.avatar}
+            />
+          </div>
+        </CardPreview>
       </div>
     </section>
   );
