@@ -48,3 +48,7 @@ h5,
 h6 {
   font-family: 'Noto Sans Lao', sans-serif;
 }
+/* force set z-index to navbar */
+.navbar {
+  z-index: 1000;
+}

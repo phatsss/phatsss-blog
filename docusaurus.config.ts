@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'phatsss',
   tagline: 'phatsss is a blog about programming',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'http://localhost:3000',
@@ -122,10 +122,10 @@ const config: Config = {
         //   label: 'GitHub',
         //   position: 'right',
         // },
-      ],
+      ]
     },
     footer: {
-      style: 'dark',
+      // style: 'dark',
       links: [
         {
           title: 'Docs',
@@ -140,16 +140,16 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Medium',
+              href: 'https://medium.com/@phatsss',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Dev.to',
+              href: 'https://dev.to/phatsss',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'LinkIn',
+              href: 'https://www.linkedin.com/in/phatsss',
             },
           ],
         },
@@ -162,7 +162,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/phatsss',
             },
           ],
         },
