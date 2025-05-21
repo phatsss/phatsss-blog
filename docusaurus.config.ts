@@ -97,7 +97,12 @@ const config: Config = {
   ],
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/phatsss-logo.png',
+    metadata: [
+      {name: 'keywords', content: 'phatsss, blog, Front-End Developer, Programming, Web Developer, Software Engineer'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+    ],
+
     navbar: {
       title: "Home",
       logo: {
@@ -173,6 +178,30 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    headTags: [
+      // Declare a <link> preconnect tag
+      {
+        tagName: 'link',
+        attributes: {
+          rel: 'preconnect',
+          href: 'https://example.com',
+        },
+      },
+      // Declare some json-ld structured data
+      {
+        tagName: 'script',
+        attributes: {
+          type: 'application/ld+json',
+        },
+        innerHTML: JSON.stringify({
+          '@context': 'https://schema.org/',
+          '@type': 'Organization',
+          name: 'Meta Open Source',
+          url: 'https://opensource.fb.com/',
+          logo: 'https://opensource.fb.com/img/logos/Meta-Open-Source.svg',
+        }),
+      },
+    ],
   } satisfies Preset.ThemeConfig,
 };
 
