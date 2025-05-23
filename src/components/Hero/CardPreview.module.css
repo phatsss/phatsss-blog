@@ -384,3 +384,33 @@
     padding: 16px;
     transition: 300ms ease-in-out;
 }
+/* Quote text transitions */
+.quoteText {
+    font-family: monospace;
+    transition: opacity 0.5s ease, font-size 0.3s ease;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    color: var(--phatss-white);
+}
+
+.fadeIn {
+    opacity: 1;
+}
+
+.fadeOut {
+    opacity: 0;
+}
+
+/* Text sizing based on quote length */
+.largeText {
+    font-size: 2rem;
+}
+
+.mediumText {
+    font-size: 1.8rem;
+}
+
+.smallText {
+    font-size: 1.5rem;
+}

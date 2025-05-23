@@ -29,7 +29,7 @@
   font-size: 1.875rem;
   font-weight: bold;
   margin-bottom: 1rem;
-  color: #3b82f6;
+  color: var(--ifm-color-primary);
 }
 
 .sectionDescription {
@@ -48,7 +48,7 @@
   content: '';
   position: absolute;
   width: 2px;
-  background-color: #3b82f6;
+  background-color: var(--ifm-color-primary);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -97,7 +97,7 @@
   position: absolute;
   width: 16px;
   height: 16px;
-  background-color: #3b82f6;
+  background-color: var(--ifm-color-primary);
   border-radius: 50%;
   top: 25px;
   z-index: 1;
@@ -115,7 +115,7 @@
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 0.25rem;
-  color: #3b82f6;
+  color: var(--ifm-color-primary);
 }
 
 .experienceMetadata {

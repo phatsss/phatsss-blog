@@ -32,7 +32,7 @@
 }
 
 .highlight {
-    color: #3b82f6;
+    color: var(--ifm-color-primary);
     position: relative;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .primaryButton {
-    background-color: #3b82f6;
+    background-color: var(--ifm-color-primary);
     color: white;
     padding: 0.75rem 1.5rem;
     border-radius: 9999px;
@@ -59,8 +59,8 @@
 
 .secondaryButton {
     background-color: transparent;
-    color: #3b82f6;
-    border: 2px solid #3b82f6;
+    color: var(--ifm-color-primary);
+        border: 2px solid var(--ifm-color-primary);
     padding: 0.75rem 1.5rem;
     border-radius: 9999px;
     font-weight: 500;
