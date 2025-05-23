@@ -2,30 +2,50 @@ import React, { JSX } from 'react';
 import styles from './styles.module.css';
 import { useColorMode } from '@docusaurus/theme-common';
 
-interface Service {
-  title: string;
-  description: string;
-  icon: string;
-}
+/**
+ * Services data array
+ * Contains information about professional services offered
+ * Each service includes a title, description, and icon
+ */
+const services = [
 
-const services: Service[] = [
   {
-    title: 'Frontend Development',
-    description: 'Creating responsive, interactive user interfaces with modern frameworks like React and Vue.',
+    title: 'Web Application Development',
+    description: 'Building full-featured web applications with secure authentication, data management, and real-time features. Experience with e-wallet systems, dashboards, and various enterprise applications.',
+    icon: '🌐'
+  },
+  {
+    title: 'Front-End Development',
+    description: 'Creating responsive, modern, and user-friendly web interfaces using React, Next.js, and other cutting-edge front-end technologies. Specializing in building intuitive UIs with smooth interactions and optimal performance.',
     icon: '💻'
   },
   {
-    title: 'Backend Development',
-    description: 'Building robust server-side applications with Node.js, Express, and database integration.',
-    icon: '🔧'
+    title: 'Back-End Development',
+    description: 'Developing robust server-side applications using Laravel (PHP), Node.js, and database technologies like MySQL and MongoDB. Creating RESTful APIs and implementing business logic for complex applications.',
+    icon: '⚙️'
   },
   {
-    title: 'Database Management',
-    description: 'Designing and optimizing database structures for efficient data storage and retrieval.',
-    icon: '🗄️'
+    title: 'WordPress Development',
+    description: 'Creating custom WordPress websites with tailored themes and plugins. Optimizing site performance, implementing security measures, and ensuring mobile responsiveness.',
+    icon: '📱'
+  },
+  {
+    title: 'E-Commerce Solutions',
+    description: 'Building online stores and payment integration systems with secure transaction processing. Experience with crypto payment systems and QR-based payment solutions.',
+    icon: '🛒'
+  },
+  {
+    title: 'UI/UX Design',
+    description: 'Designing intuitive user interfaces and experiences that balance aesthetics with functionality. Creating wireframes, prototypes, and visual designs that enhance user engagement.',
+    icon: '🎨'
   }
 ];
 
+/**
+ * Services Component
+ * Displays professional services offered in a grid layout
+ * Supports both light and dark mode
+ */
 export default function Services(): JSX.Element {
   const { colorMode } = useColorMode();
   
@@ -34,7 +54,7 @@ export default function Services(): JSX.Element {
       <div className={styles.sectionHeader}>
         <h2 className={styles.sectionTitle}>My Services</h2>
         <p className={styles.sectionDescription}>
-          Specialized skills and services I offer to help bring your digital projects to life.
+          Specialized skills and services I offer to help bring your digital projects to life, backed by 5.5+ years of professional experience.
         </p>
       </div>
       
