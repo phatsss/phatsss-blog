@@ -56,6 +56,8 @@ const config: Config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
+          blogSidebarCount: 'ALL',
+          blogSidebarTitle: 'All posts',
         },
         sitemap: false,
         theme: {
