@@ -52,3 +52,38 @@ h6 {
 .navbar {
   z-index: 1000;
 }
+/* ========== Sidebar link height & radius ========== */
+.menu {
+  padding: 0.5rem !important;
+}
+
+/* Make every sidebar link exactly 48px tall, vertically centered */
+.menu__list-item>a.menu__link {
+  display: flex;
+  /* ensure we can center by flex */
+  align-items: center;
+  /* vertically center the text/icon */
+  min-height: 48px;
+  /* enforce at least 48px */
+  height: 48px;
+  /* enforce exactly 48px */
+  padding-top: 0;
+  /* remove extra top/bottom padding */
+  padding-bottom: 0;
+  border-radius: 8px;
+  padding-right: 4px;
+}
+
+/* If you have nested items and want them the same: */
+.menu__list .menu__list-item .menu__link {
+  min-height: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
+
+/* If you have nested items and want them the same: */
+.menu__list .menu__list-item>.menu__list-item-collapsible {
+  min-height: 48px;
+  height: 48px;
+  border-radius: 8px;
+}
