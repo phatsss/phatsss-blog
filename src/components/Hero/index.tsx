@@ -51,7 +51,7 @@ export default function Hero(): JSX.Element {
                 {/* Square-rounded glowing Avatar */}
                 <div className={styles.avatarWrapper}>
                   <img
-                    src="/img/phatsss-logo.svg"
+                    src="./img/phatsss-logo.svg"
                     alt="Developer Avatar"
                     className={styles.avatar}
                   />

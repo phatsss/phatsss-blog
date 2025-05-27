@@ -14,7 +14,7 @@ const projects = [
       "Secure wallet application with balance view, transaction history, and QR payment features.",
     technologies: ["Next.js", "TanStack Query", "React", "TypeScript"],
     category: "Financial Technology",
-    image: "/img/landing/e-wallet-img.png",
+    image: "./img/landing/e-wallet-img.png",
     link: "#",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
       "Inventory management system for gas importers to track stock, deliveries, and sales with comprehensive reporting.",
     technologies: ["React", "Redux", "Chart.js", "Material UI"],
     category: "Enterprise Software",
-    image: "/img/landing/petro-img.png",
+    image: "./img/landing/petro-img.png",
     link: "#",
   },
   {
@@ -32,7 +32,7 @@ const projects = [
       "Investment platform with Binance API integration for real-time portfolio tracking and LaoQR payment integration.",
     technologies: ["React", "Node.js", "Binance API", "LaoQR"],
     category: "Financial Technology",
-    image: "/img/landing/bitcoin-img.png",
+    image: "./img/landing/bitcoin-img.png",
     link: "#",
   },
   {
@@ -41,7 +41,7 @@ const projects = [
       "Platform for shipping companies to manage packages, track deliveries, and generate reports.",
     technologies: ["React", "Express", "MongoDB", "Leaflet Maps"],
     category: "Logistics",
-    image: "/img/landing/postal-img.png",
+    image: "./img/landing/postal-img.png",
     link: "#",
   },
   {
@@ -50,7 +50,7 @@ const projects = [
       "Comprehensive system for policy creation, claims processing, and reporting to simplify insurance workflows.",
     technologies: ["React", "Node.js", "MySQL", "PDF Generation"],
     category: "Enterprise Software",
-    image: "/img/landing/insurance-img.png",
+    image: "./img/landing/insurance-img.png",
     link: "#",
   },
   {
@@ -59,7 +59,7 @@ const projects = [
       "Student management system with enrollment, QR payment, card generation, and course evaluation features.",
     technologies: ["React", "Laravel", "MySQL", "QR Integration"],
     category: "Education",
-    image: "/img/landing/education-img.png",
+    image: "./img/landing/education-img.png",
     link: "#",
   },
 ];

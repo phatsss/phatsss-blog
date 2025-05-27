@@ -107,7 +107,7 @@ export default function CardPreview({
           {/* Avatar image that appears on hover */}
           <div id={styles.prompt} className={styles.avatarContainer}>
             <img
-              src="/img/phatsss-logo.png"
+              src="./img/phatsss-logo.png"
               alt="Developer Avatar"
               className={styles.avatar}
             />
