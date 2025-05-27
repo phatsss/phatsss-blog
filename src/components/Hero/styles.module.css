@@ -73,7 +73,7 @@
     transform: translateY(-2px);
 }
 
-.avatarContainer {
+/* .avatarContainer {
     position: relative;
     width: 400px;
     height: 400px;
@@ -87,8 +87,9 @@
     height: auto;
     object-fit: contain;
     animation: float 6s ease-in-out infinite;
-}
-
+    transform-style: preserve-3d;
+        will-change: transform;
+        */
 @keyframes float {
     0% {
         transform: translateY(0px);
@@ -128,4 +129,95 @@
         width: 250px;
         height: 250px;
     }
+}
+/* Avatar wrapper with gradient glow */
+.avatarWrapper {
+    height: 254px;
+    width: 450px;
+    position: relative;
+    /* width: clamp(80px, 20vw, 160px); */
+    /* responsive size */
+    aspect-ratio: 1 / 1;
+    border-radius: 1.5rem;
+    /* rounded square */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.2));
+    box-shadow:
+        0 0 20px rgba(255, 255, 255, 0.15),
+        0 0 40px 2px rgba(0, 230, 255, 0.2),
+        0 0 80px 6px rgba(200, 100, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.5s ease;
+}
+
+/* Glow effect that pulses holographically */
+.avatarWrapper::before {
+    content: "";
+    position: absolute;
+    inset: -20%;
+    background: conic-gradient(from 0deg,
+            #ff00cc,
+            #6600ff,
+            #0099ff,
+            #00ffcc,
+            #ffcc00,
+            #ff00cc);
+    animation: pulseRotate 6s linear infinite;
+    opacity: 0.6;
+    filter: blur(75px);
+    z-index: -1;
+}
+
+/* Optional sparkle layer */
+.avatarWrapper::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(white 1px, transparent 1px);
+    background-size: 450px 250px;
+    opacity: 0.05;
+    z-index: 2;
+}
+
+/* Avatar image style */
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: inherit;
+    z-index: 1;
+    transition: transform 0.5s ease, filter 0.4s ease;
+    filter: drop-shadow(0 2px 4px rgba(255, 255, 255, 0.3));
+}
+
+/* Hover effect */
+#card:hover .avatarWrapper {
+    transform: scale(1.05);
+    box-shadow:
+        0 0 40px rgba(255, 255, 255, 0.3),
+        0 0 80px rgba(0, 255, 255, 0.4),
+        0 0 120px rgba(255, 0, 255, 0.3);
+}
+
+@keyframes pulseRotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* 3D transform based on tracker's hover (sample entry) */
+.tr-13:hover~#card .avatarWrapper {
+    transform: scale(1.05) translate3d(0px, 0px, 20px) rotateX(5deg) rotateY(5deg);
+}
+
+.tr-1:hover~#card .avatarWrapper {
+    transform: scale(1.05) translate3d(-8px, -8px, 20px) rotateX(10deg) rotateY(-10deg);
 }

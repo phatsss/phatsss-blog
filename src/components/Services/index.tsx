@@ -50,17 +50,27 @@ export default function Services(): JSX.Element {
   const { colorMode } = useColorMode();
   
   return (
-    <section className={`${styles.section} ${colorMode === 'dark' ? styles.sectionDark : styles.sectionLight}`}>
+    <section
+      className={`${styles.section} ${
+        colorMode === "dark" ? styles.sectionDark : styles.sectionLight
+      }`}
+    >
       <div className={styles.sectionHeader}>
         <h2 className={styles.sectionTitle}>My Services</h2>
         <p className={styles.sectionDescription}>
-          Specialized skills and services I offer to help bring your digital projects to life, backed by 5.5+ years of professional experience.
+          Specialized skills and services I offer to help bring your digital
+          projects to life.
         </p>
       </div>
-      
+
       <div className={styles.servicesGrid}>
         {services.map((service, index) => (
-          <div key={index} className={`${styles.serviceCard} ${colorMode === 'dark' ? styles.cardDark : styles.cardLight}`}>
+          <div
+            key={index}
+            className={`${styles.serviceCard} ${
+              colorMode === "dark" ? styles.cardDark : styles.cardLight
+            }`}
+          >
             <div className={styles.iconContainer}>
               <span className={styles.icon}>{service.icon}</span>
             </div>

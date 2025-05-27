@@ -86,14 +86,21 @@ export default function CardPreview({
       <div className={styles.canvas}>
         {/* Render all tracker divs that create the hover detection grid */}
         {trackers.map((num) => (
-          <div key={num} className={`${styles.tracker} ${styles[`tr-${num}`]}`} />
+          <div
+            key={num}
+            className={`${styles.tracker} ${styles[`tr-${num}`]}`}
+          />
         ))}
 
         {/* The main card that will be transformed on hover */}
         <div id={styles.card}>
           {/* Prompt text that disappears on hover */}
           <div className={styles.content}>
-            <h2 className={`${styles.quoteText} ${getTextSizeClass()} ${fadeIn ? styles.fadeIn : styles.fadeOut}`}>
+            <h2
+              className={`${styles.quoteText} ${getTextSizeClass()} ${
+                fadeIn ? styles.fadeIn : styles.fadeOut
+              }`}
+            >
               {`"${currentQuote}"`}
             </h2>
           </div>
@@ -116,14 +123,12 @@ export default function CardPreview({
             ))} */}
 
             {/* Additional content passed as children */}
-          {children}
+            {children}
           </div>
 
           <div className={styles.subtitle}>{subtitle}</div>
-
-          
         </div>
       </div>
     </div>
-  )
+  );
 }
