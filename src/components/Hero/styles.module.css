@@ -132,8 +132,8 @@
 }
 /* Avatar wrapper with gradient glow */
 .avatarWrapper {
-    height: 254px;
-    width: 450px;
+    height: 253px;
+        width: 449px;
     position: relative;
     /* width: clamp(80px, 20vw, 160px); */
     /* responsive size */
