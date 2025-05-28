@@ -1,11 +1,17 @@
 /* Main container for the card */
 .container {
     position: relative;
-    width: 450px;
-    height: 254px;
-    transition: 200ms;
+    aspect-ratio: 16 / 9;
+        width: clamp(350px, 80vw, 449px);
+        height: clamp(200px, 45vw, 253px);
 }
 
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: clamp(280px, 60vw, 400px);
+        height: clamp(160px, 34vw, 225px);
+    }
+}
 /* Subtle animation when container is active (clicked) */
 /* .container:active {
     width: 645px;
@@ -34,7 +40,12 @@
     width: 100%;
     margin-top: 16px;
 }
+@media (max-width: 768px) {
+    .subtitle {
+        margin-bottom: 56px;
+    }
 
+}
 /* Title styling with transition effects */
 .title {
     opacity: 0;
