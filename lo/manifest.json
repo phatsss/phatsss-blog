@@ -1,0 +1,35 @@
+{
+  "name": "Phatsss Blog",
+  "short_name": "Phatsss",
+  "theme_color": "#00ccff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/phatsss-blog/",
+  "start_url": "/phatsss-blog/",
+  "icons": [
+    {
+      "src": "/phatsss-blog/img/phatsss-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/phatsss-blog/img/phatsss-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/phatsss-blog/img/phatsss-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/phatsss-blog/img/phatsss-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

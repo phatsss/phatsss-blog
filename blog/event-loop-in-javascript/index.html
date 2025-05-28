@@ -4,9 +4,24 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.8.0">
 <title data-rh="true">JavaScript EP1: Event Loop♻️ | phatsss</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" property="og:image" content="https://phatsss.github.io/phatsss-blog/img/phatsss-logo.png"><meta data-rh="true" name="twitter:image" content="https://phatsss.github.io/phatsss-blog/img/phatsss-logo.png"><meta data-rh="true" property="og:url" content="https://phatsss.github.io/phatsss-blog/blog/event-loop-in-javascript"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" property="og:locale:alternate" content="lo"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" name="keywords" content="phatsss, blog, Front-End Developer, Programming, Web Developer, Software Engineer"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:title" content="JavaScript EP1: Event Loop♻️ | phatsss"><meta data-rh="true" name="description" content="Event Loop in JavaScript"><meta data-rh="true" property="og:description" content="Event Loop in JavaScript"><meta data-rh="true" property="og:type" content="article"><meta data-rh="true" property="article:published_time" content="2023-03-30T00:00:00.000Z"><meta data-rh="true" property="article:author" content="https://github.com/phatsss"><meta data-rh="true" property="article:tag" content="Javascript"><link data-rh="true" rel="icon" href="/phatsss-blog/img/favicon.png"><link data-rh="true" rel="canonical" href="https://phatsss.github.io/phatsss-blog/blog/event-loop-in-javascript"><link data-rh="true" rel="alternate" href="https://phatsss.github.io/phatsss-blog/blog/event-loop-in-javascript" hreflang="en"><link data-rh="true" rel="alternate" href="https://phatsss.github.io/phatsss-blog/lo/blog/event-loop-in-javascript" hreflang="lo"><link data-rh="true" rel="alternate" href="https://phatsss.github.io/phatsss-blog/blog/event-loop-in-javascript" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","@id":"https://phatsss.github.io/phatsss-blog/blog/event-loop-in-javascript","mainEntityOfPage":"https://phatsss.github.io/phatsss-blog/blog/event-loop-in-javascript","url":"https://phatsss.github.io/phatsss-blog/blog/event-loop-in-javascript","headline":"JavaScript EP1: Event Loop♻️","name":"JavaScript EP1: Event Loop♻️","description":"Event Loop in JavaScript","datePublished":"2023-03-30T00:00:00.000Z","author":{"@type":"Person","name":"Phatsss","description":"Front End Engineer","url":"https://github.com/phatsss","image":"/phatsss-blog/img/favicon.png"},"keywords":[],"isPartOf":{"@type":"Blog","@id":"https://phatsss.github.io/phatsss-blog/blog","name":"Blog"}}</script><link rel="alternate" type="application/rss+xml" href="/phatsss-blog/blog/rss.xml" title="phatsss RSS Feed">
-<link rel="alternate" type="application/atom+xml" href="/phatsss-blog/blog/atom.xml" title="phatsss Atom Feed"><link rel="stylesheet" href="/phatsss-blog/assets/css/styles.322d3cba.css">
-<script src="/phatsss-blog/assets/js/runtime~main.48bb63d0.js" defer="defer"></script>
-<script src="/phatsss-blog/assets/js/main.0d20469f.js" defer="defer"></script>
+<link rel="alternate" type="application/atom+xml" href="/phatsss-blog/blog/atom.xml" title="phatsss Atom Feed">
+
+
+
+
+
+
+<link rel="icon" href="/phatsss-blog/img/phatsss-logo.png">
+<link rel="icon" href="/phatsss-blog/img/phatsss-logo.png">
+<link rel="manifest" href="/phatsss-blog/manifest.json">
+<meta name="theme-color" content="#00ccff">
+<meta name="apple-mobile-web-app-status-bar-style" content="#00ccff">
+<link rel="apple-touch-icon" href="/phatsss-blog/img/phatsss-logo.png">
+<link rel="mask-icon" href="/phatsss-blog/img/phatsss-logo.svg" color="#00ccff">
+<meta name="msapplication-TileImage" content="/phatsss-blog/img/phatsss-logo.png">
+<meta name="msapplication-TileColor" content="#00ccff"><link rel="stylesheet" href="/phatsss-blog/assets/css/styles.2ad093a6.css">
+<script src="/phatsss-blog/assets/js/runtime~main.310e9e12.js" defer="defer"></script>
+<script src="/phatsss-blog/assets/js/main.c10daa2b.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
