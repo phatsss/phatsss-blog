@@ -14,7 +14,8 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Full Stack Developer Portfolio">
+      description="Full Stack Developer Portfolio"
+    >
       <main className={styles.container}>
         <Hero />
         <WorkExperience />

@@ -189,12 +189,36 @@ line-height: 1.5;
     background-color: #2d2d2d;
     color: #d1d5db;
 }
-
 @media (max-width: 768px) {
+    .section {
+            padding: 2rem 1rem;
+        }
     .portfolioGrid {
         grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.5rem;
     }
-  .sectionTitle {
-      font-size: 2rem;
-  }
+    
+                .sectionTitle {
+        font-size: 1.5rem;
+        }
+        
+        .filterContainer {
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .filterButton {
+            padding: 0.4rem 1rem;
+            font-size: 0.8rem;
+        }
+        }
+        
+        @media (max-width: 480px) {
+            .portfolioGrid {
+                grid-template-columns: 1fr;
+            }
+        
+            .portfolioImageContainer {
+                height: 180px;
+            }
 }

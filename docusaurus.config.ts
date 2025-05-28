@@ -126,7 +126,7 @@ const config: Config = {
           label: "Tutorial",
         },
         { to: "/blog", label: "Blog", position: "left" },
-        { type: "search", position: "right" },
+        { type: "search", position: "right", style: "auto" },
         {
           type: "localeDropdown",
           position: "right",

@@ -9,6 +9,27 @@
   backdrop-filter: blur(5.1px);
 }
 
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+
+  .sectionDescription {
+    font-size: 1rem;
+  }
+
+  .timelineContent {
+    padding: 15px 20px;
+  }
+
+  .experienceTitle {
+    font-size: 1.1rem;
+  }
+}
 
 .sectionLight {
   background-color: #f9fafb;
