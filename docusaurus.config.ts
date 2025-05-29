@@ -62,7 +62,12 @@ const config: Config = {
           blogSidebarCount: "ALL",
           blogSidebarTitle: "All posts",
         },
-        sitemap: false,
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -97,6 +102,75 @@ const config: Config = {
         explicitSearchResultPath: true,
         searchBarShortcut: true,
         searchBarPosition: "right",
+      },
+    ],
+    [
+      "@docusaurus/plugin-ideal-image",
+      {
+        quality: 70,
+        max: 1030,
+        min: 640,
+        steps: 2,
+        disableInDev: false,
+      },
+    ],
+    [
+      "@docusaurus/plugin-pwa",
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          "appInstalled",
+          "standalone",
+          "queryString",
+        ],
+        pwaHead: [
+          {
+            tagName: "link",
+            rel: "icon",
+            href: "img/favicon.png",
+          },
+          {
+            tagName: "link",
+            rel: "icon",
+            href: "img/favicon.png",
+          },
+          {
+            tagName: "link",
+            rel: "manifest",
+            href: "manifest.json",
+          },
+          {
+            tagName: "meta",
+            name: "theme-color",
+            content: "#00ccff",
+          },
+          {
+            tagName: "meta",
+            name: "apple-mobile-web-app-status-bar-style",
+            content: "#00ccff",
+          },
+          {
+            tagName: "link",
+            rel: "apple-touch-icon",
+            href: "img/favicon.png",
+          },
+          {
+            tagName: "link",
+            rel: "mask-icon",
+            href: "img/favicon.png",
+            color: "#00ccff",
+          },
+          {
+            tagName: "meta",
+            name: "msapplication-TileImage",
+            content: "img/favicon.png",
+          },
+          {
+            tagName: "meta",
+            name: "msapplication-TileColor",
+            content: "#00ccff",
+          },
+        ],
       },
     ],
   ],
@@ -188,12 +262,27 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
     headTags: [
-      // Declare a <link> preconnect tag
       {
         tagName: "link",
         attributes: {
           rel: "preconnect",
-          href: "https://example.com",
+          href: "https://fonts.googleapis.com",
+        },
+      },
+      {
+        tagName: "link",
+        attributes: {
+          rel: "preconnect",
+          href: "https://fonts.gstatic.com",
+          crossorigin: "anonymous",
+        },
+      },
+      {
+        tagName: "link",
+        attributes: {
+          rel: "preload",
+          href: "https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;700&display=swap",
+          as: "style",
         },
       },
       // Declare some json-ld structured data
