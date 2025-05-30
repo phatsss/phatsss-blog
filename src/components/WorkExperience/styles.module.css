@@ -140,7 +140,6 @@
     position: absolute;
     width: 12px;
     height: 12px;
-    /* background: white; */
     border-radius: 50%;
     top: 50%;
     left: 50%;
@@ -172,6 +171,7 @@
 .experienceMetadata {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 1rem;
     font-size: 1rem;
 }
@@ -191,8 +191,7 @@
 .period {
   font-size: 0.95rem;
     background: rgba(var(--ifm-color-primary-rgb), 0.1);
-    padding: 4px 10px;
-    border-radius: 20px;
+    /* padding: 4px 24px; */
     font-weight: 500;
 }
 

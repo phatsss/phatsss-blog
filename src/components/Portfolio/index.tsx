@@ -97,6 +97,24 @@ const projects = [
     image: "./img/landing/education-img.png",
     link: "#",
   },
+  {
+    title: "POS System",
+    description:
+      "Point of sale system with barcode scanning, inventory management, and sales reporting.",
+    technologies: ["React", "Typescript", "Redux", "Redux-saga", "Tailwinds"],
+    category: "Point of Sale",
+    image: "./img/landing/pos-img.png",
+    link: "#",
+  },
+  {
+    title: "HR System",
+    description:
+      "Human resources management system with employee management, payroll, and performance tracking.",
+    technologies: ["NestJS", "NodeJS", "Typescript", "PostgreSQL", "Postman"],
+    category: "Enterprise Software",
+    image: "./img/landing/hr-img.png",
+    link: "#",
+  },
 ];
 
 /**
@@ -107,6 +125,7 @@ const categories = [
   "Financial Technology",
   "Enterprise Software",
   "Logistics",
+  "Point of Sale",
   "Education",
 ];
 

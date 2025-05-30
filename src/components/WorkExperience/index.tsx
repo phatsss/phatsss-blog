@@ -36,23 +36,37 @@ export default function WorkExperience(): JSX.Element {
   const { colorMode } = useColorMode();
   
   return (
-    <section className={`${styles.section} ${colorMode === 'dark' ? styles.sectionDark : styles.sectionLight}`}>
+    <section
+      className={`${styles.section} ${
+        colorMode === "dark" ? styles.sectionDark : styles.sectionLight
+      }`}
+    >
       <div className={styles.sectionHeader}>
         <h2 className={styles.sectionTitle}>My Work Experience</h2>
         <p className={styles.sectionDescription}>
-          Over 5.5+ years of experience in front-end development creating intuitive, modern, and user-friendly web applications.
+          Over 5.5+ years of experience in front-end development creating
+          intuitive, modern, and user-friendly web applications.
         </p>
       </div>
-      
+
       <div className={styles.timeline}>
         {experiences.map((exp, index) => (
-          <div key={index} className={`${styles.timelineItem} ${index % 2 === 0 ? styles.left : styles.right}`}>
-            <div className={`${styles.timelineContent} ${colorMode === 'dark' ? styles.cardDark : styles.cardLight}`}>
+          <div
+            key={index}
+            className={`${styles.timelineItem} ${
+              index % 2 === 0 ? styles.left : styles.right
+            }`}
+          >
+            <div
+              className={`${styles.timelineContent} ${
+                colorMode === "dark" ? styles.cardDark : styles.cardLight
+              }`}
+            >
               <div className={styles.timelineDot}></div>
               <h3 className={styles.experienceTitle}>{exp.title}</h3>
               <div className={styles.experienceMetadata}>
                 <span className={styles.companyName}>{exp.company}</span>
-                <span className={styles.metadataSeparator}>•</span>
+                {/* <span className={styles.metadataSeparator}>•</span> */}
                 <span className={styles.period}>{exp.period}</span>
               </div>
               <p className={styles.experienceDescription}>{exp.description}</p>
