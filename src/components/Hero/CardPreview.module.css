@@ -42,7 +42,8 @@
 }
 @media (max-width: 768px) {
     .subtitle {
-        margin-bottom: 56px;
+        margin-bottom: 64px;
+        padding-top: 24px;
     }
 
 }
