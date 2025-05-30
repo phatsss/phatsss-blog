@@ -182,7 +182,7 @@
     "message": "ຄັດລອກ",
     "description": "ປ້າຍກຳກັບຄັດລອກ"
   },
- "theme.CodeBlock.wordWrapToggle": {
+  "theme.CodeBlock.wordWrapToggle": {
     "message": "ສະຫຼັບການຫຸ້ມຄຳ",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
@@ -326,7 +326,7 @@
     "message": "ທົ່ວໄປ"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "ພົບເອກະສານ 1 ອັນ|ພົບ {count} ເອກະສານ",
+    "message": "ພົບເອກະສານ 1 ລາຍການ|ພົບ {count} ເອກະສານ",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.noResultsText": {
@@ -348,5 +348,14 @@
   "theme.SearchBar.label": {
     "message": "ຄົ້ນຫາ",
     "description": "The ARIA label and placeholder for search button"
+  },
+  "hero.title": {
+    "message": "ຂ້ອຍຊື່"
+  },
+  "hero.position": {
+    "message": "Software Developer"
+  },
+  "hero.description": {
+    "message": ""
   }
 }

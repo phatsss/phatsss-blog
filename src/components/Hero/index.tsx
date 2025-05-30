@@ -1,19 +1,25 @@
 import React, { JSX } from 'react';
 import styles from "./styles.module.css";
 import CardPreview from './CardPreview';
+import { translate } from "@docusaurus/Translate";
 
 export default function Hero(): JSX.Element {
   return (
     <section className={styles.hero}>
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>
-          I'm <span className={styles.highlight}>@Phatsss</span>,<br />
-          Software Developer
+          {translate({ id: "hero.title", message: "I'm" })}&nbsp;
+          <span className={`${styles.highlight} ${styles.sunset}`}>
+            @phatsss
+          </span>
+          ,<br />
+          {translate({ id: "hero.position", message: "Software Developer" })}
         </h1>
         <p className={styles.heroDescription}>
           A passionate developer who wants to make work look even more amazing!
           Specializing in creating beautiful, functional, and user-friendly
           websites.
+          {translate({ id: "hero.position", message: "Software Developer" })}
         </p>
         {/* <div className={styles.buttonContainer}>
           <button className={styles.primaryButton}>
