@@ -87,3 +87,28 @@ h6 {
   height: 48px;
   border-radius: 8px;
 }
+/* Fix for navbar-sidebar__backdrop overflow */
+.navbar-sidebar__backdrop {
+  width: 100% !important;
+  max-width: 100% !important;
+  position: fixed !important;
+  left: 0 !important;
+  right: 0 !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+/* Fix for navbar with sidebar show class */
+.navbar.navbar--fixed-top.navbar-sidebar--show {
+  overflow-x: hidden !important;
+}
+
+/* Ensure the body doesn't overflow when mobile sidebar is open */
+html,
+body {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}

@@ -1,17 +1,14 @@
 import React, { JSX } from 'react';
-import styles from './styles.module.css';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import styles from "./styles.module.css";
 import CardPreview from './CardPreview';
 
 export default function Hero(): JSX.Element {
-  const { siteConfig } = useDocusaurusContext();
-
   return (
     <section className={styles.hero}>
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>
           I'm <span className={styles.highlight}>@Phatsss</span>,<br />
-          Front-End Developer
+          Software Developer
         </h1>
         <p className={styles.heroDescription}>
           A passionate developer who wants to make work look even more amazing!
@@ -51,7 +48,7 @@ export default function Hero(): JSX.Element {
                 {/* Square-rounded glowing Avatar */}
                 <div className={styles.avatarWrapper}>
                   <img
-                    src="/img/phatsss-logo.svg"
+                    src="./img/phatsss-logo.svg"
                     alt="Developer Avatar"
                     className={styles.avatar}
                   />

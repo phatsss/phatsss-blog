@@ -7,6 +7,26 @@
     padding: 4rem 0;
 }
 
+@media (max-width: 480px) {
+    .hero {
+        padding: 2rem 0;
+        min-height: auto;
+        margin-bottom: 56px;
+    }
+
+    .heroTitle {
+        font-size: 2rem;
+    }
+
+    .heroDescription {
+        font-size: 1rem;
+    }
+
+    .avatarWrapper {
+        height: 200px;
+        width: 350px;
+    }
+}
 .heroContent {
     width: 100%;
     margin-bottom: 2rem;
@@ -27,7 +47,6 @@
 
 .heroDescription {
     font-size: 1.125rem;
-    margin-bottom: 2rem;
     max-width: 32rem;
 }
 
@@ -132,13 +151,22 @@
 }
 /* Avatar wrapper with gradient glow */
 .avatarWrapper {
-    height: 253px;
+    /* height: 253px;
         width: 449px;
     position: relative;
+        */
     /* width: clamp(80px, 20vw, 160px); */
     /* responsive size */
-    aspect-ratio: 1 / 1;
-    border-radius: 1.5rem;
+    /* aspect-ratio: 1 / 1;
+                                border-radius: 1.5rem; */
+    
+        /* Replace fixed dimensions with responsive ones */
+        width: clamp(350px, 80vw, 449px);
+        height: clamp(200px, 45vw, 253px);
+        position: relative;
+        aspect-ratio: 16 / 9;
+        /* Maintain aspect ratio */
+        border-radius: 1.5rem;
     /* rounded square */
     display: flex;
     justify-content: center;
@@ -154,6 +182,14 @@
     transition: transform 0.3s ease, box-shadow 0.5s ease;
 }
 
+/* Add tablet-specific adjustments if needed */
+@media (min-width: 481px) and (max-width: 768px) {
+    .avatarWrapper {
+        /* Fine-tune for tablet if needed */
+        width: clamp(250px, 60vw, 400px);
+        height: clamp(130px, 34vw, 225px);
+    }
+}
 /* Glow effect that pulses holographically */
 .avatarWrapper::before {
     content: "";
@@ -178,7 +214,7 @@
     position: absolute;
     inset: 0;
     background-image: radial-gradient(white 1px, transparent 1px);
-    background-size: 450px 250px;
+    /* background-size: 450px 250px; */
     opacity: 0.05;
     z-index: 2;
 }
@@ -192,6 +228,7 @@
     z-index: 1;
     transition: transform 0.5s ease, filter 0.4s ease;
     filter: drop-shadow(0 2px 4px rgba(255, 255, 255, 0.3));
+    animation: float 6s ease-in-out infinite;
 }
 
 /* Hover effect */
