@@ -45,7 +45,8 @@ export default function SideProjects(): JSX.Element {
       <div className={styles.sectionHeader}>
         <h2 className={styles.sectionTitle}>My Free Time Projects</h2>
         <p className={styles.sectionDescription}>
-        These are open-source personal projects I've built to improve my skills and explore new stacks.
+          These are open-source personal projects I've built to improve my
+          skills and explore new stacks.
         </p>
       </div>
 
@@ -64,8 +65,20 @@ export default function SideProjects(): JSX.Element {
                 className={styles.portfolioImage}
               />
               <div className={styles.portfolioOverlay}>
-                <a href={project.link} className={styles.viewProjectButton}>Demo</a>
-                <a href={project.projectLink} className={styles.viewProjectButton}>View Project</a>
+                <a
+                  href={project.link}
+                  target="_blank"
+                  className={styles.viewProjectButton}
+                >
+                  Demo
+                </a>
+                <a
+                  href={project.projectLink}
+                  target="_blank"
+                  className={styles.viewProjectButton}
+                >
+                  View Project
+                </a>
               </div>
             </div>
             <div className={styles.portfolioContent}>
