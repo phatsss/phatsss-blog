@@ -12,7 +12,13 @@ const projects = [
     title: "E-Wallet System",
     description:
       "Secure wallet application with balance view, transaction history, and QR payment features.",
-    technologies: ["Next.js", "TanStack Query", "React", "TypeScript"],
+    technologies: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "TanStack Query",
+      "Antd-design",
+    ],
     category: "Financial Technology",
     image: "./img/landing/e-wallet-img.png",
     link: "#",
@@ -21,7 +27,14 @@ const projects = [
     title: "Gas Management System",
     description:
       "Inventory management system for gas importers to track stock, deliveries, and sales with comprehensive reporting.",
-    technologies: ["React", "Redux", "Chart.js", "Material UI"],
+    technologies: [
+      "Next.js",
+      "React",
+      "Typescript",
+      "TanStack Query",
+      "Re-Chart",
+      "Antd-design",
+    ],
     category: "Enterprise Software",
     image: "./img/landing/petro-img.png",
     link: "#",
@@ -30,7 +43,15 @@ const projects = [
     title: "Crypto Investment Platform",
     description:
       "Investment platform with Binance API integration for real-time portfolio tracking and LaoQR payment integration.",
-    technologies: ["React", "Node.js", "Binance API", "LaoQR"],
+    technologies: [
+      "Next.js",
+      "React",
+      "Typescript",
+      "Node.js",
+      "Binance API",
+      "Supabase",
+      "LaoQR",
+    ],
     category: "Financial Technology",
     image: "./img/landing/bitcoin-img.png",
     link: "#",
@@ -39,7 +60,13 @@ const projects = [
     title: "Postal Management System",
     description:
       "Platform for shipping companies to manage packages, track deliveries, and generate reports.",
-    technologies: ["React", "Express", "MongoDB", "Leaflet Maps"],
+    technologies: [
+      "Vite",
+      "React",
+      "Typescript",
+      "TanStack Query",
+      "Antd-design",
+    ],
     category: "Logistics",
     image: "./img/landing/postal-img.png",
     link: "#",
@@ -48,7 +75,7 @@ const projects = [
     title: "Insurance Management System",
     description:
       "Comprehensive system for policy creation, claims processing, and reporting to simplify insurance workflows.",
-    technologies: ["React", "Node.js", "MySQL", "PDF Generation"],
+    technologies: ["React", "Redux", "Redux-saga", "Typescript", "Antd-design"],
     category: "Enterprise Software",
     image: "./img/landing/insurance-img.png",
     link: "#",
@@ -57,7 +84,15 @@ const projects = [
     title: "Education Platform",
     description:
       "Student management system with enrollment, QR payment, card generation, and course evaluation features.",
-    technologies: ["React", "Laravel", "MySQL", "QR Integration"],
+    technologies: [
+      "React",
+      "Typescript",
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "Blade",
+      "Web-Socket",
+    ],
     category: "Education",
     image: "./img/landing/education-img.png",
     link: "#",
