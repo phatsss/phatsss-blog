@@ -50,11 +50,175 @@
     max-width: 32rem;
 }
 
+/* .highlight {
+    color: var(--ifm-color-primary);
+    position: relative;
+} */
+
+/* Base highlight style */
 .highlight {
     color: var(--ifm-color-primary);
     position: relative;
 }
 
+/* Cyberpunk Neon Animation */
+.highlight.cyberpunk {
+    animation: cyberpunk-glow 3s ease-in-out infinite;
+    text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+@keyframes cyberpunk-glow {
+    0% {
+        color: #00ffff;
+        text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    }
+    25% {
+        color: #ff0080;
+        text-shadow: 0 0 10px #ff0080, 0 0 20px #ff0080, 0 0 30px #ff0080;
+    }
+    50% {
+        color: #80ff00;
+        text-shadow: 0 0 10px #80ff00, 0 0 20px #80ff00, 0 0 30px #80ff00;
+    }
+    75% {
+        color: #ff8000;
+        text-shadow: 0 0 10px #ff8000, 0 0 20px #ff8000, 0 0 30px #ff8000;
+    }
+    100% {
+        color: #00ffff;
+        text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff;
+    }
+}
+
+/* Sunset Gradient Flow */
+.highlight.sunset {
+    background: linear-gradient(45deg, #ff6b6b, #ffa500, #ff1493, #ff69b4, #ff6347);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: sunset-flow 4s ease-in-out infinite;
+}
+
+@keyframes sunset-flow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Cosmic Space Animation */
+.highlight.cosmic {
+    animation: cosmic-shift 5s linear infinite;
+    text-shadow: 0 0 15px rgba(138, 43, 226, 0.6);
+}
+
+@keyframes cosmic-shift {
+    0% {
+        color: #9932cc;
+        text-shadow: 0 0 15px #9932cc, 0 0 25px #9932cc;
+    }
+    20% {
+        color: #4169e1;
+        text-shadow: 0 0 15px #4169e1, 0 0 25px #4169e1;
+    }
+    40% {
+        color: #00bfff;
+        text-shadow: 0 0 15px #00bfff, 0 0 25px #00bfff;
+    }
+    60% {
+        color: #7b68ee;
+        text-shadow: 0 0 15px #7b68ee, 0 0 25px #7b68ee;
+    }
+    80% {
+        color: #da70d6;
+        text-shadow: 0 0 15px #da70d6, 0 0 25px #da70d6;
+    }
+    100% {
+        color: #9932cc;
+        text-shadow: 0 0 15px #9932cc, 0 0 25px #9932cc;
+    }
+}
+
+/* Fire Pulse Animation */
+.highlight.fire {
+    animation: fire-pulse 2.5s ease-in-out infinite;
+}
+
+@keyframes fire-pulse {
+    0% {
+        color: #ff4500;
+        text-shadow: 0 0 8px #ff4500, 0 0 16px #ff6347;
+        transform: scale(1);
+    }
+    25% {
+        color: #ff6347;
+        text-shadow: 0 0 12px #ff6347, 0 0 20px #ff4500;
+        transform: scale(1.02);
+    }
+    50% {
+        color: #ffd700;
+        text-shadow: 0 0 15px #ffd700, 0 0 25px #ff8c00;
+        transform: scale(1.05);
+    }
+    75% {
+        color: #ff8c00;
+        text-shadow: 0 0 12px #ff8c00, 0 0 20px #ff4500;
+        transform: scale(1.02);
+    }
+    100% {
+        color: #ff4500;
+        text-shadow: 0 0 8px #ff4500, 0 0 16px #ff6347;
+        transform: scale(1);
+    }
+}
+
+/* Electric Storm Animation */
+.highlight.electric {
+    animation: electric-storm 3.5s linear infinite;
+    position: relative;
+}
+
+@keyframes electric-storm {
+    0% {
+        color: #00ff41;
+        text-shadow: 0 0 5px #00ff41, 0 0 10px #00ff41, 0 0 15px #00ff41;
+    }
+    15% {
+        color: #39ff14;
+        text-shadow: 0 0 8px #39ff14, 0 0 16px #39ff14, 0 0 24px #39ff14;
+    }
+    30% {
+        color: #ccff00;
+        text-shadow: 0 0 5px #ccff00, 0 0 10px #ccff00, 0 0 15px #ccff00;
+    }
+    45% {
+        color: #00ffff;
+        text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff, 0 0 24px #00ffff;
+    }
+    60% {
+        color: #0080ff;
+        text-shadow: 0 0 5px #0080ff, 0 0 10px #0080ff, 0 0 15px #0080ff;
+    }
+    75% {
+        color: #8000ff;
+        text-shadow: 0 0 8px #8000ff, 0 0 16px #8000ff, 0 0 24px #8000ff;
+    }
+    90% {
+        color: #ff00ff;
+        text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+    }
+    100% {
+        color: #00ff41;
+        text-shadow: 0 0 5px #00ff41, 0 0 10px #00ff41, 0 0 15px #00ff41;
+    }
+}
+/* end animation */
 .buttonContainer {
     display: flex;
     gap: 1rem;
@@ -204,7 +368,7 @@
             #ff00cc);
     animation: pulseRotate 6s linear infinite;
     opacity: 0.6;
-    filter: blur(75px);
+    filter: blur(65px);
     z-index: -1;
 }
 

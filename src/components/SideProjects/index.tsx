@@ -1,6 +1,7 @@
-import React, { useState, JSX } from 'react';
-import styles from './styles.module.css';
-import { useColorMode } from '@docusaurus/theme-common';
+import { useColorMode } from "@docusaurus/theme-common";
+import { translate } from "@docusaurus/Translate";
+import { JSX } from "react";
+import styles from "./styles.module.css";
 
 /**
  * Portfolio project data array
@@ -10,9 +11,15 @@ import { useColorMode } from '@docusaurus/theme-common';
 const projects = [
   {
     title: "Covid-19 Tracker",
-    description:
-      "Web application for tracking COVID-19 statistics.",
-    technologies: ["Vite", "React", "Typescript", "Redux-saga", "Antd-design", "MapBox"],
+    description: "Web application for tracking COVID-19 statistics.",
+    technologies: [
+      "Vite",
+      "React",
+      "Typescript",
+      "Redux-saga",
+      "Antd-design",
+      "MapBox",
+    ],
     image: "./img/landing/covid-la-img.jpeg",
     link: "https://covid19-la.netlify.app/",
     projectLink: "https://github.com/phatsss/covid19-la",
@@ -23,7 +30,7 @@ const projects = [
       "Responsive layout grid with various components and animations.",
     technologies: ["Vite", "React", "Typescript", "tailwindcss"],
     image: "./img/landing/bento-grid-img.png",
-    link: "https://covid19-la.netlify.app/",
+    link: "https://phatsss.github.io/valentine-dev/",
     projectLink: "https://github.com/phatsss/valentine-dev",
   },
 ];
@@ -35,7 +42,7 @@ const projects = [
  */
 export default function SideProjects(): JSX.Element {
   const { colorMode } = useColorMode();
-  
+
   return (
     <section
       className={`${styles.section} ${
@@ -43,10 +50,11 @@ export default function SideProjects(): JSX.Element {
       }`}
     >
       <div className={styles.sectionHeader}>
-        <h2 className={styles.sectionTitle}>My Free Time Projects</h2>
+        <h2 className={styles.sectionTitle}>
+          {translate({ id: "sideProject.title" })}
+        </h2>
         <p className={styles.sectionDescription}>
-          These are open-source personal projects I've built to improve my
-          skills and explore new stacks.
+          {translate({ id: "sideProject.description" })}
         </p>
       </div>
 

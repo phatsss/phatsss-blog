@@ -12,20 +12,20 @@
     "description": "ປ້າຍກຳກັບ ARIA ສຳລັບການເລືອກຫນ້າບລັອກ"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "ເຫດການໃຫມ່",
-    "description": "ປ້າຍກຳກັບສຳລັບເຫດການໃຫມ່"
+    "message": "ບົດຄວາມໃໝ່",
+    "description": "ປ້າຍກຳກັບສຳລັບບົດຄວາມໃໝ່"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "ເຫດການເກົ່າ",
-    "description": "ປ້າຍກຳກັບສຳລັບເຫດການເກົ່າ"
+    "message": "ບົດຄວາມເກົ່າ",
+    "description": "ປ້າຍກຳກັບສຳລັບບົດຄວາມເກົ່າ"
   },
   "theme.blog.archive.title": {
-    "message": "ບັນທຶກເຫດການ",
-    "description": "ຫົວຂໍ້ຂອງບັນທຶກເຫດການ"
+    "message": "ບັນທຶກບົດຄວາມ",
+    "description": "ຫົວຂໍ້ຂອງບັນທຶກບົດຄວາມ"
   },
   "theme.blog.archive.description": {
-    "message": "ບັນທຶກເຫດການ",
-    "description": "ຄຳອະທິບາຍຂອງບັນທຶກເຫດການ"
+    "message": "ບັນທຶກບົດຄວາມ",
+    "description": "ຄຳອະທິບາຍຂອງບັນທຶກບົດຄວາມ"
   },
   "theme.blog.post.paginator.navAriaLabel": {
     "message": "ການນຳທາງໂພດບລັອກ",
@@ -64,7 +64,7 @@
     "description": "ປ້າຍກຳກັບເອກະສານຕໍ່ໄປ"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "ປ່ຽນລະຫວ່າງໂໝດມືດ ແລະ ແສງ (ປັດຈຸບັນ {mode})",
+    "message": "ປ່ຽນລະຫວ່າງໂໝດມືດ ແລະ ແຈ້ງ (ປັດຈຸບັນ {mode})",
     "description": "ປ້າຍກຳກັບ ARIA ສຳລັບການປ່ຽນໂໝດສີ"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
@@ -72,8 +72,8 @@
     "description": "ຊື່ໂໝດມືດ"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "ໂໝດແສງ",
-    "description": "ຊື່ໂໝດແສງ"
+    "message": "ໂໝດແຈ້ງ",
+    "description": "ຊື່ໂໝດແຈ້ງ"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "ເອກະສານ 1 ລາຍການ|ເອກະສານ {count} ລາຍການ",
@@ -84,23 +84,23 @@
     "description": "ຫົວຂໍ້ເອກະສານຕາມປ້າຍກຳກັບ"
   },
   "theme.docs.versionBadge.label": {
-    "message": "ລຸ້ນ: {versionLabel}"
+    "message": "ເວີຊັ່ນ: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "ນີ້ແມ່ນເອກະສານທີ່ບໍ່ໄດ້ຖືກປ່ອຍອອກມາສຳລັບ {siteTitle} ລຸ້ນ {versionLabel}",
+    "message": "ນີ້ແມ່ນເອກະສານທີ່ບໍ່ໄດ້ຖືກປ່ອຍອອກມາສຳລັບ {siteTitle} ເວີຊັ່ນ {versionLabel}",
     "description": "ປ້າຍກຳກັບເອກະສານທີ່ຍັງບໍ່ໄດ້ປ່ອຍ"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "ນີ້ແມ່ນເອກະສານສຳລັບ {siteTitle} ລຸ້ນ {versionLabel} ທີ່ບໍ່ໄດ້ຮັບການບຳລຸງຮັກສາ",
+    "message": "ນີ້ແມ່ນເອກະສານສຳລັບ {siteTitle} ເວີຊັ່ນ {versionLabel} ທີ່ບໍ່ໄດ້ຮັບການບຳລຸງຮັກສາ",
     "description": "ປ້າຍກຳກັບເອກະສານທີ່ບໍ່ໄດ້ຮັກສາ"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
     "message": "ສຳລັບເອກະສານປັດຈຸບັນ ໃຫ້ເບິ່ງ {latestVersionLink} ({versionLabel})",
-    "description": "ຄຳແນະນຳລຸ້ນລ່າສຸດ"
+    "description": "ຄຳແນະນຳເວີຊັ່ນລ່າສຸດ"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "ລຸ້ນລ່າສຸດ",
-    "description": "ລິ້ງລຸ້ນລ່າສຸດ"
+    "message": "ເວີຊັ່ນລ່າສຸດ",
+    "description": "ລິ້ງເວີຊັ່ນລ່າສຸດ"
   },
   "theme.common.editThisPage": {
     "message": "ແກ້ໄຂຫນ້ານີ້",
@@ -123,8 +123,8 @@
     "description": "ຂໍ້ຄວາມອັບເດດຫລ້າສຸດ"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "ລຸ້ນ",
-    "description": "ປ້າຍກຳກັບລຸ້ນໃນໂທລະສັບ"
+    "message": "ເວີຊັ່ນ",
+    "description": "ປ້າຍກຳກັບເວີຊັ່ນໃນໂທລະສັບ"
   },
   "theme.NotFound.title": {
     "message": "ບໍ່ພົບຫນ້າທີ່ຕ້ອງການ",
@@ -166,10 +166,6 @@
     "message": "ເຕືອນ",
     "description": "ປ້າຍກຳກັບເຕືອນ"
   },
-  "theme.CodeBlock.wordWrapToggle": {
-    "message": "ປ່ຽນການຫຸ້ມຂໍ້ຄວາມ",
-    "description": "ປ້າຍກຳກັບການຫຸ້ມຂໍ້ຄວາມ"
-  },
   "theme.CodeBlock.copied": {
     "message": "ຄັດລອກແລ້ວ",
     "description": "ປ້າຍກຳກັບຄັດລອກແລ້ວ"
@@ -182,7 +178,7 @@
     "message": "ຄັດລອກ",
     "description": "ປ້າຍກຳກັບຄັດລອກ"
   },
- "theme.CodeBlock.wordWrapToggle": {
+  "theme.CodeBlock.wordWrapToggle": {
     "message": "ສະຫຼັບການຫຸ້ມຄຳ",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
@@ -291,7 +287,7 @@
     "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "ໜ້ານີ້ບໍ່ໄດ້ຖືກດັດແກ້ໃຫ້ເຄື່ອງຈັກຄົ້ນຫາມາອ່ານ, ມີແຕ່ຜູ້ທີ່ມີລິ້ງທົງໄປທີ່ເຂົ້າໄດ້.",
+    "message": "ໜ້ານີ້ບໍ່ໄດ້ຖືກດັດແກ້ໃຫ້ເຄື່ອງຈັກຄົ້ນຫາມາອ່ານ, ມີແຕ່ຜູ້ທີ່ມີລິ້ງທີ່ເຂົ້າໄດ້.",
     "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
@@ -326,7 +322,7 @@
     "message": "ທົ່ວໄປ"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "ພົບເອກະສານ 1 ອັນ|ພົບ {count} ເອກະສານ",
+    "message": "ພົບເອກະສານ 1 ລາຍການ|ພົບ {count} ເອກະສານ",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.noResultsText": {
@@ -348,5 +344,50 @@
   "theme.SearchBar.label": {
     "message": "ຄົ້ນຫາ",
     "description": "The ARIA label and placeholder for search button"
+  },
+  "hero.title": {
+    "message": "ຂ້ອຍຊື່"
+  },
+  "hero.position": {
+    "message": "Software Developer"
+  },
+  "hero.description": {
+    "message": "ນັກພັດທະນາ software ທີ່ມີຄວາມກະຕືລືລົ້ນໃນການສ້າງສັນຜົນງານໃຫ້ທັນສະໄໝ, ໃຊ້ງານງ່າຍ ແລະ ຮອງຮັບການຂະຫຍາຍຕົວ"
+  },
+  "workExperience.title": {
+    "message": "ປະສົບການທີ່ຜ່ານມາ"
+  },
+  "workExperience.description": {
+    "message": "ຈາກປະສົບການຫຼາຍກວ່າ 5ປີ ໃນການພັດທະນາ web application ໃຫ້ຫຼາຍອົງກອນ, ຮັບຜິດຊອບໜ້າວຽກທັງ Front-end ແລະ Back-end."
+  },
+  "workExperience.content1Description": {
+    "message": "ພັດທະນາລະບົບທີຫຼາກຫຼາຍຮັບໃຊ້ຫຼາຍອົງກອນເຊັ່ນ: E-Wallet ທີ່ມີ features ໃນການ Top-up, transaction history ພັດທະນາໂດຍໃຊ້ Next.JS ແລະ Tanstack Query, Crypto Investment Platforms ທີ່ມີການເຊື່ອມຕໍ່ກັບ Binance API ໃນການສ້າງອໍເດີ, ລະບົບບໍລິຫານຈັດການດ້ານການຂົນສົ່ງໄປສະນີ ສຳລັບບັນທຶກ ແລະ ຕິດຕາມການຂົນສົ່ງພັດສະດຸ, ລະບົບບໍລິຫານຈັດການປະກັນໄພ ສຳລັບການບັນທຶກຂໍ້ມູນການຊື້-ຂາຍປະກັນໄພ, ການເຄລມເງິນປະກັນໄພ, ການຄິດໄລ່ຄ່າປະກັນຕ່າງໆ, Education platforms ທີ່ເປັນລະບົບສຳລັບການລົງທະບຽນຕ່າງໆຂອງນັກສຶກສາ, ການໃຫ້ຄະແນນ, ອອກບັດນັກສຶກສາ,​ອອກໃບຄະແນນ ແລະ ອື່ນໆ."
+  },
+  "workExperience.content2Description": {
+    "message": "ພັດທະນາລະບົບບໍລິຫານຈັດການສະຖາບັນການສຶກສາເຊິ່ງປະກອບດ້ວຍຫຼາຍໂມດູນເຊັ່ນ: ການລົງທະບຽນນັກສຶກສາ, ການລົງທະບຽນຮຽນ, ການຕິດຕາມຄະແນນ, ການຈັດການຫຼັກສູດ, ການອອກໃບຄະແນນ, ການຈັດການບົດໂຄງການຈົບຊັ້ນ ແລະ ການແຈ້ງເຕືອນ. ພັດທະນາໂດຍນຳໃຊ້ Laravel(PHP) ແລະ ຖານຂໍ້ມູນເປັນ MySQL."
+  },
+  "workExperience.content3Description": {
+    "message": "ສຳເລັດການສຶກສາສາຂາ ການພັດທະນາເວັບໄຊ, ຄະນະວິທະຍາສາດທຳມະຊາດ ດ້ວຍເກຣດສະເລ່ຍ 3.95/4.00. ບົດໂຄງການຈົບຊັ້ນ: NUOL Football Management System ເປັນລະບົບຈັດການລີກການແຂ່ງຂັນກິລາບານເຕະຂອງ ມຊ, ໃນນັ້ນມີ features ທີ່ຫຼາກຫຼາຍເຊັ່ນ: ການຈັດການທີມແຂ່ງຂັນ, ການຈັດການໂຄດ,​ການຈັດການນັກເຕະ, ການຈັດການຂໍ້ມູນກຳມະການ, ການຈັດການຂໍ້ມູນລີກການແຂ່ງຂັນ, ການລົງຄະແນນໃນລະຫວ່າງການແຂ່ງ, ການໃຫ້ໃບເຫຼືອງ/ໃບແດງ, ການລົງໂທດແບນນັກເຕະ ແລະ ການຈັດນັດແຂ່ງຂັນແບບອັດຕະໂນມັດເປັນຕົ້ນ. ພັດທະນາໂດຍນຳໃຊ້ Laravel(PHP) ແລະ ຖານຂໍ້ມູນເປັນ MySQL."
+  },
+  "workExperience.content4Description": {
+    "message": "ຂ້ອຍໄດ້ອອກແບບ ແລະ ໄດ້ສົ່ງມອບ web application ຫຼາຍລະບົບເຊັ່ນ: ລະບົບຈັດການຫ້ອງສະໝຸດ(Laravel); ລະບົບຈັດການສາງນ້ຳມັນ(Laravel, NextJS) ສຳລັບບັນທຶກຂໍ້ມູນການຊື້-ຂາຍ ແລະ ຕິດຕາມນ້ຳມັນໃນສາງ; ລະບົບຕິດຕາມໂຄງການ(Laravel) ສຳລັບຕິດຕາມການດຳເນີນການຂອງແຕ່ລະໂຄງການ; ລະບົບ HRMS(NestJS, NodeJS, Vite, React, Tailwinds) ສຳລັບຕິດຕາມຂໍ້ມູນພະນັກງານ, ຄຳນວນເງິນເດືອນ, ບັກທຶກເວລາເຂົ້າ-ອອກວຽກ, ບັນທຶກວັນຂາດ/ລາ, ຈັດການຂໍ້ມູນອົງກອນ ແລະ ອື່ນໆ; ລະບົບ POS (React) ສຳລັບບັນທຶກຂໍ້ມູນການຊື້-ຂາຍ, ຕິດຕາມການຊື້-ຂາຍ ແລະ ສະຫຼຸບຍອດຂາຍ"
+  },
+  "service.title": {
+    "message": "ບໍລິການ"
+  },
+  "service.description": {
+    "message": "ພວກເຮົາຊ່ຽວຊານໃນການພັດທະນາ web application ໃຫ້ຕອບໂຈດກັບຄວາມຕ້ອງການຂອງລູກຄ້າ"
+  },
+  "portfolio.title": {
+    "message": "ຜົນງານທີ່ຜ່ານມາ"
+  },
+  "portfolio.description": {
+    "message": "ໃນໄລຍະເວລາຂອງການເຮັດວຽກຂ້ອຍໄດ້ພັດທະນາຫຼາຍ Project ໃຫ້ກັບຫຼາຍອົງກອນ, ລຸ່ມນີ້ແມ່ນຜົນງານບາງສ່ວນ."
+  },
+  "sideProject.title": {
+    "message": "ງານອາດີເຫຼກ"
+  },
+  "sideProject.description": {
+    "message": "ນີ້ແມ່ນໂປຣເຈັກນ້ອຍໆທີ່ສ້າງຂຶ້ນມາເປັນ open source ເພື່ອທົດລອງ stack ໃໝ່ໆ."
   }
 }
