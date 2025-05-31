@@ -1,6 +1,7 @@
-import React, { useState, JSX } from 'react';
-import styles from './styles.module.css';
-import { useColorMode } from '@docusaurus/theme-common';
+import { useColorMode } from "@docusaurus/theme-common";
+import { translate } from "@docusaurus/Translate";
+import { JSX } from "react";
+import styles from "./styles.module.css";
 
 /**
  * Portfolio project data array
@@ -41,7 +42,7 @@ const projects = [
  */
 export default function SideProjects(): JSX.Element {
   const { colorMode } = useColorMode();
-  
+
   return (
     <section
       className={`${styles.section} ${
@@ -49,10 +50,11 @@ export default function SideProjects(): JSX.Element {
       }`}
     >
       <div className={styles.sectionHeader}>
-        <h2 className={styles.sectionTitle}>My Free Time Projects</h2>
+        <h2 className={styles.sectionTitle}>
+          {translate({ id: "sideProject.title" })}
+        </h2>
         <p className={styles.sectionDescription}>
-          These are open-source personal projects I've built to improve my
-          skills and explore new stacks.
+          {translate({ id: "sideProject.description" })}
         </p>
       </div>
 

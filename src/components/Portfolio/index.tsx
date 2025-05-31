@@ -1,6 +1,7 @@
 import React, { useState, JSX } from 'react';
 import styles from './styles.module.css';
 import { useColorMode } from '@docusaurus/theme-common';
+import { translate } from "@docusaurus/Translate";
 
 /**
  * Portfolio project data array
@@ -151,10 +152,11 @@ export default function Portfolio(): JSX.Element {
       }`}
     >
       <div className={styles.sectionHeader}>
-        <h2 className={styles.sectionTitle}>My Portfolio</h2>
+        <h2 className={styles.sectionTitle}>
+          {translate({ id: "portfolio.title" })}
+        </h2>
         <p className={styles.sectionDescription}>
-          Explore a selection of projects I've developed throughout my 5.5+
-          years of professional experience.
+          {translate({ id: "portfolio.description" })}
         </p>
       </div>
 

@@ -402,6 +402,24 @@
     "message": "Majored in Web Development at the Faculty of Natural Sciences with a GPA of 3.95/4.0. Completed thesis project: NUOL Football Management System - a platform to manage football leagues, teams, players, referees, and matches using Laravel and MySQL."
   },
   "workExperience.content4Description": {
-    "message": "I have designed and delivered full-stack web applications across diverse domains, including: a Laravel-based Library Management System; a NextJS-powered Gas Management & Inventory Tracking System; a Thesis Submission Portal for project timelines; a Student Registration System with Laravel; an HRMS backend (employee/payroll/performance tracking) using NestJS, Node.js, and TypeScript; and a React/Redux/Redux-Saga Point-of-Sale (POS) solution—demonstrating proficiency in JavaScript/TypeScript ecosystems across frontend (React, NextJS) and backend (Laravel, Node.js, NestJS) development."
+    "message": "I have designed and delivered full-stack web applications across diverse domains, including: a Laravel-based Library Management System; a NextJS-powered Gas Management & Inventory Tracking System; a Thesis Submission Portal for project timelines; a Student Registration System with Laravel; an HRMS (employee/payroll/performance tracking) using NestJS, Node.js, TypeScript, Vite, React, Tailwinds; and a React/Redux/Redux-Saga Point-of-Sale (POS) solution—demonstrating proficiency in JavaScript/TypeScript ecosystems across frontend (React, NextJS) and backend (Laravel, Node.js, NestJS) development."
+  },
+  "service.title": {
+    "message": "Services"
+  },
+  "service.description": {
+    "message": "I provide a range of services to help you achieve your goals. Whether you need a website, a mobile app, or a custom solution, I have the skills and experience to get the job done."
+  },
+  "portfolio.title": {
+    "message": "Portfolio"
+  },
+  "portfolio.description": {
+    "message": "Explore a selection of projects I've developed throughout my 5.5+ years of professional experience."
+  },
+  "sideProject.title": {
+    "message": "My Free Time Projects"
+  },
+  "sideProject.description": {
+    "message": "These are open-source personal projects I've built to improve my skills and explore new stacks."
   }
 }

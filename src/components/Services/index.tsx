@@ -1,6 +1,7 @@
 import React, { JSX } from 'react';
 import styles from './styles.module.css';
 import { useColorMode } from '@docusaurus/theme-common';
+import { translate } from "@docusaurus/Translate";
 
 /**
  * Services data array
@@ -56,10 +57,11 @@ export default function Services(): JSX.Element {
       }`}
     >
       <div className={styles.sectionHeader}>
-        <h2 className={styles.sectionTitle}>My Services</h2>
+        <h2 className={styles.sectionTitle}>
+          {translate({ id: "service.title" })}
+        </h2>
         <p className={styles.sectionDescription}>
-          Specialized skills and services I offer to help bring your digital
-          projects to life.
+          {translate({ id: "service.description" })}
         </p>
       </div>
 
