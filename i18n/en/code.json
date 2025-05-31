@@ -377,13 +377,31 @@
     "message": "Tags",
     "description": "The title of the tag list page"
   },
-  "hero.title":{
-    "message":"I'm"
+  "hero.title": {
+    "message": "I'm"
   },
   "hero.position": {
     "message": "Software Developer"
   },
   "hero.description": {
     "message": "A passionate developer who wants to make work look even more amazing! Specializing in creating beautiful, functional, and user-friendly websites."
+  },
+  "workExperience.title": {
+    "message": "Work Experience"
+  },
+  "workExperience.description": {
+    "message": "Over 5.5+ years of experience in front-end development creating intuitive, modern, and user-friendly web applications."
+  },
+  "workExperience.content1Description": {
+    "message": "Developed multiple enterprise applications including E-Wallet Systems with secure features using Next.js and TanStack Query, Crypto Investment Platforms with Binance API integration, Postal Platforms for package management, Insurance Systems for policy creation and claims, and Education Platforms with student enrollment and payment features."
+  },
+  "workExperience.content2Description": {
+    "message": "Developed a College Management System with core features for student registration, score tracking, course management, tuition handling, and notifications using Laravel (PHP) and MySQL. Focused on both visual design and functional workflows to improve data management and accessibility to academic records."
+  },
+  "workExperience.content3Description": {
+    "message": "Majored in Web Development at the Faculty of Natural Sciences with a GPA of 3.95/4.0. Completed thesis project: NUOL Football Management System - a platform to manage football leagues, teams, players, referees, and matches using Laravel and MySQL."
+  },
+  "workExperience.content4Description": {
+    "message": "I have designed and delivered full-stack web applications across diverse domains, including: a Laravel-based Library Management System; a NextJS-powered Gas Management & Inventory Tracking System; a Thesis Submission Portal for project timelines; a Student Registration System with Laravel; an HRMS backend (employee/payroll/performance tracking) using NestJS, Node.js, and TypeScript; and a React/Redux/Redux-Saga Point-of-Sale (POS) solution—demonstrating proficiency in JavaScript/TypeScript ecosystems across frontend (React, NextJS) and backend (Laravel, Node.js, NestJS) development."
   }
 }

@@ -16,10 +16,7 @@ export default function Hero(): JSX.Element {
           {translate({ id: "hero.position", message: "Software Developer" })}
         </h1>
         <p className={styles.heroDescription}>
-          A passionate developer who wants to make work look even more amazing!
-          Specializing in creating beautiful, functional, and user-friendly
-          websites.
-          {translate({ id: "hero.position", message: "Software Developer" })}
+          {translate({ id: "hero.description" })}
         </p>
         {/* <div className={styles.buttonContainer}>
           <button className={styles.primaryButton}>

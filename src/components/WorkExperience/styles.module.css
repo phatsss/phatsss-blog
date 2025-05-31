@@ -190,7 +190,8 @@
 
 .period {
   font-size: 0.95rem;
-    background: rgba(var(--ifm-color-primary-rgb), 0.1);
+  color: rgba(var(--ifm-color-primary-rgb), 0.1);
+    /* background: rgba(var(--ifm-color-primary-rgb), 0.1); */
     /* padding: 4px 24px; */
     font-weight: 500;
 }

@@ -10,9 +10,15 @@ import { useColorMode } from '@docusaurus/theme-common';
 const projects = [
   {
     title: "Covid-19 Tracker",
-    description:
-      "Web application for tracking COVID-19 statistics.",
-    technologies: ["Vite", "React", "Typescript", "Redux-saga", "Antd-design", "MapBox"],
+    description: "Web application for tracking COVID-19 statistics.",
+    technologies: [
+      "Vite",
+      "React",
+      "Typescript",
+      "Redux-saga",
+      "Antd-design",
+      "MapBox",
+    ],
     image: "./img/landing/covid-la-img.jpeg",
     link: "https://covid19-la.netlify.app/",
     projectLink: "https://github.com/phatsss/covid19-la",
@@ -23,7 +29,7 @@ const projects = [
       "Responsive layout grid with various components and animations.",
     technologies: ["Vite", "React", "Typescript", "tailwindcss"],
     image: "./img/landing/bento-grid-img.png",
-    link: "https://covid19-la.netlify.app/",
+    link: "https://phatsss.github.io/valentine-dev/",
     projectLink: "https://github.com/phatsss/valentine-dev",
   },
 ];
