@@ -126,7 +126,7 @@ export default function CardPreview({
             {children}
           </div>
 
-          <div className={styles.subtitle}>{subtitle}</div>
+          {/* <div className={styles.subtitle}>{subtitle}</div> */}
         </div>
       </div>
     </div>
