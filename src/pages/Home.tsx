@@ -7,6 +7,8 @@ import WorkExperience from "../components/WorkExperience";
 import SideProjects from "../components/SideProjects";
 import Services from "../components/Services";
 import Portfolio from "../components/Portfolio";
+import {LogoLoopComponent} from "../components/LogoLoop";
+// import ProfileCard from '../components/ProfileCard';
 // import Contact from "../components/Contact";
 
 export default function Home(): JSX.Element {
@@ -19,6 +21,8 @@ export default function Home(): JSX.Element {
     >
       <main className={styles.container}>
         <Hero />
+        <LogoLoopComponent />
+        {/* <ProfileCard /> */}
         <WorkExperience />
         <Services />
         <Portfolio />
