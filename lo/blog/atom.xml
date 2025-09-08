@@ -2,11 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://phatsss.github.io/phatsss-blog/lo/blog</id>
     <title>phatsss Blog</title>
-    <updated>2023-05-06T00:00:00.000Z</updated>
+    <updated>2025-09-08T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://phatsss.github.io/phatsss-blog/lo/blog"/>
     <subtitle>phatsss Blog</subtitle>
     <icon>https://phatsss.github.io/phatsss-blog/lo/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[GitHub Spec Kit]]></title>
+        <id>https://phatsss.github.io/phatsss-blog/lo/blog/github-spec-kit</id>
+        <link href="https://phatsss.github.io/phatsss-blog/lo/blog/github-spec-kit"/>
+        <updated>2025-09-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub Spec Kit]]></summary>
+        <content type="html"><![CDATA[<p>ຄູ່ມືນີ້ຈະຊ່ວຍແນະນຳທ່ານກ່ຽວກັບການຕິດຕັ້ງແລະນຳໃຊ້ <strong>GitHub Spec Kit</strong> ຢູ່ໃນຄອມພິວເຕີ Mac ທີ່ໃຊ້ຊິບ <strong>Apple silicon</strong>. Spec Kit ແມ່ນເຄື່ອງມືສຳລັບວິທີການພັດທະນາແບບໃໝ່ທີ່ເອີ້ນວ່າ <strong>Spec-Driven Development</strong> (SDD), ເຊິ່ງທ່ານຈະນຳໃຊ້ AI agents ເພື່ອສ້າງລະຫັດໂປຣແກຣມຕາມຂໍ້ກຳນົດທີ່ຊັດເຈນ.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ສິ່ງທີ່ຕ້ອງມີກ່ອນ">ສິ່ງທີ່ຕ້ອງມີກ່ອນ<a href="https://phatsss.github.io/phatsss-blog/lo/blog/github-spec-kit#%E0%BA%AA%E0%BA%B4%E0%BB%88%E0%BA%87%E0%BA%97%E0%BA%B5%E0%BB%88%E0%BA%95%E0%BB%89%E0%BA%AD%E0%BA%87%E0%BA%A1%E0%BA%B5%E0%BA%81%E0%BB%88%E0%BA%AD%E0%BA%99" class="hash-link" aria-label="ລິ້ງໂດຍຕົງໄປຫາ ສິ່ງທີ່ຕ້ອງມີກ່ອນ" title="ລິ້ງໂດຍຕົງໄປຫາ ສິ່ງທີ່ຕ້ອງມີກ່ອນ">​</a></h3>
+<p>ກ່ອນທີ່ຈະເລີ່ມຕົ້ນ, ໃຫ້ແນ່ໃຈວ່າ Mac ທີ່ໃຊ້ Apple silicon ຂອງທ່ານມີສິ່ງຕໍ່ໄປນີ້:</p>
+<ul>
+<li><strong>macOS</strong>: macOS ເວີຊັນລ່າສຸດ.</li>
+<li><strong>Git</strong>: ຕ້ອງຕິດຕັ້ງແລະຕັ້ງຄ່າ Git ແລ້ວ. ທ່ານສາມາດກວດສອບໄດ້ໂດຍການພິມ <code>git --version</code> ໃນ Terminal ຂອງທ່ານ.</li>
+<li><strong>Python 3.11+</strong></li>
+<li><strong>uv</strong>: ເປັນເຄື່ອງມືຕິດຕັ້ງແລະຈັດການຊຸດ Python ທີ່ວ່ອງໄວ.</li>
+<li><strong>Coding Agent</strong>: Spec Kit ສາມາດໃຊ້ງານໄດ້ກັບ AI coding agents ຕ່າງໆ ເຊັ່ນ: GitHub Copilot, Claude Code, ຫຼື Gemini CLI.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ຂັ້ນຕອນທີ-1-ຕິດຕັ້ງ-uv-ແລະ-spec-kit">ຂັ້ນຕອນທີ 1: ຕິດຕັ້ງ <code>uv</code> ແລະ Spec Kit<a href="https://phatsss.github.io/phatsss-blog/lo/blog/github-spec-kit#%E0%BA%82%E0%BA%B1%E0%BB%89%E0%BA%99%E0%BA%95%E0%BA%AD%E0%BA%99%E0%BA%97%E0%BA%B5-1-%E0%BA%95%E0%BA%B4%E0%BA%94%E0%BA%95%E0%BA%B1%E0%BB%89%E0%BA%87-uv-%E0%BB%81%E0%BA%A5%E0%BA%B0-spec-kit" class="hash-link" aria-label="ລິ້ງໂດຍຕົງໄປຫາ ຂັ້ນຕອນທີ-1-ຕິດຕັ້ງ-uv-ແລະ-spec-kit" title="ລິ້ງໂດຍຕົງໄປຫາ ຂັ້ນຕອນທີ-1-ຕິດຕັ້ງ-uv-ແລະ-spec-kit">​</a></h3>
+<p>ກ່ອນອື່ນ, ທ່ານຕ້ອງຕິດຕັ້ງ <code>uv</code> ເຊິ່ງເປັນຂໍ້ກຳນົດເບື້ອງຕົ້ນຂອງ Spec Kit. ຈາກນັ້ນ, ໃຫ້ໃຊ້ <code>uv</code> ເພື່ອເລີ່ມຕົ້ນໂຄງການໃໝ່ດ້ວຍ Spec Kit.</p>
+<p>ເປີດ <strong>Terminal</strong> ຂອງທ່ານແລະພິມຄຳສັ່ງຕໍ່ໄປນີ້:</p>
+<ol>
+<li><strong>ຕິດຕັ້ງ uv (ຖ້າທ່ານຍັງບໍ່ມີ):</strong>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh</span><br></span></code></pre></div></div>
+</li>
+<li><strong>ເລີ່ມຕົ້ນໂຄງການໃໝ່ດ້ວຍ Spec Kit:</strong>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">uvx --from git+[https://github.com/github/spec-kit.git](https://github.com/github/spec-kit.git) specify init &lt;PROJECT_NAME&gt;</span><br></span></code></pre></div></div>
+<!-- -->ປ່ຽນ <code>&lt;PROJECT_NAME&gt;</code> ເປັນຊື່ໂຄງການຂອງທ່ານ. ຄຳສັ່ງນີ້ຈະສ້າງໂຄງສ້າງໂຄງການອັດຕະໂນມັດພ້ອມທັງແມ່ແບບທີ່ຈຳເປັນ.</li>
+</ol>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ຂັ້ນຕອນທີ-2-ສ້າງຂໍ້ກຳນົດ-specify">ຂັ້ນຕອນທີ 2: ສ້າງຂໍ້ກຳນົດ (<code>/specify</code>)<a href="https://phatsss.github.io/phatsss-blog/lo/blog/github-spec-kit#%E0%BA%82%E0%BA%B1%E0%BB%89%E0%BA%99%E0%BA%95%E0%BA%AD%E0%BA%99%E0%BA%97%E0%BA%B5-2-%E0%BA%AA%E0%BB%89%E0%BA%B2%E0%BA%87%E0%BA%82%E0%BB%8D%E0%BB%89%E0%BA%81%E0%BA%B3%E0%BA%99%E0%BA%BB%E0%BA%94-specify" class="hash-link" aria-label="ລິ້ງໂດຍຕົງໄປຫາ ຂັ້ນຕອນທີ-2-ສ້າງຂໍ້ກຳນົດ-specify" title="ລິ້ງໂດຍຕົງໄປຫາ ຂັ້ນຕອນທີ-2-ສ້າງຂໍ້ກຳນົດ-specify">​</a></h3>
+<p>ຫຼັກການສຳຄັນຂອງ SDD ແມ່ນຂໍ້ກຳນົດ. ບ່ອນນີ້ແມ່ນບ່ອນທີ່ທ່ານອະທິບາຍສິ່ງທີ່ທ່ານຕ້ອງການສ້າງຢ່າງຊັດເຈນແລະລະອຽດ. ໃຊ້ຄຳສັ່ງ <code>/specify</code> ພ້ອມກັບ AI coding agent ຂອງທ່ານ (ຕົວຢ່າງ: ໃນ code editor ເຊັ່ນ VS Code ຫຼື chat interface ທີ່ຮອງຮັບ).</p>
+<p><strong>ຕົວຢ່າງ:</strong>
+/specify ສ້າງແອັບພລິເຄຊັນເວັບແບບງ່າຍໆທີ່ຕິດຕາມນິໄສປະຈຳວັນຂອງຜູ້ໃຊ້ ເຊັ່ນ "ດື່ມນໍ້າ" ຫຼື "ອອກກຳລັງກາຍ". ມັນຄວນຈະອະນຸຍາດໃຫ້ຜູ້ໃຊ້ເພີ່ມນິໄສໃໝ່, ໝາຍວ່ານິໄສສຳເລັດແລ້ວໃນມື້ນັ້ນ, ແລະເບິ່ງປະຫວັດນິໄສທີ່ສຳເລັດ.</p>
+<p>ຈາກນັ້ນ AI ຈະຖາມຄຳຖາມເພີ່ມເຕີມແລະສ້າງເອກະສານ <code>spec.md</code> ລະອຽດ, ເຊິ່ງຈະອະທິບາຍຄຸນສົມບັດແລະຄວາມຕ້ອງການຂອງໂຄງການ.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ຂັ້ນຕອນທີ-3-ສ້າງແຜນການທາງດ້ານເທັກນິກ-plan">ຂັ້ນຕອນທີ 3: ສ້າງແຜນການທາງດ້ານເທັກນິກ (<code>/plan</code>)<a href="https://phatsss.github.io/phatsss-blog/lo/blog/github-spec-kit#%E0%BA%82%E0%BA%B1%E0%BB%89%E0%BA%99%E0%BA%95%E0%BA%AD%E0%BA%99%E0%BA%97%E0%BA%B5-3-%E0%BA%AA%E0%BB%89%E0%BA%B2%E0%BA%87%E0%BB%81%E0%BA%9C%E0%BA%99%E0%BA%81%E0%BA%B2%E0%BA%99%E0%BA%97%E0%BA%B2%E0%BA%87%E0%BA%94%E0%BB%89%E0%BA%B2%E0%BA%99%E0%BB%80%E0%BA%97%E0%BA%B1%E0%BA%81%E0%BA%99%E0%BA%B4%E0%BA%81-plan" class="hash-link" aria-label="ລິ້ງໂດຍຕົງໄປຫາ ຂັ້ນຕອນທີ-3-ສ້າງແຜນການທາງດ້ານເທັກນິກ-plan" title="ລິ້ງໂດຍຕົງໄປຫາ ຂັ້ນຕອນທີ-3-ສ້າງແຜນການທາງດ້ານເທັກນິກ-plan">​</a></h3>
+<p>ເມື່ອຂໍ້ກຳນົດຊັດເຈນແລ້ວ, ທ່ານໃຊ້ຄຳສັ່ງ <code>/plan</code> ເພື່ອສ້າງແຜນການປະຕິບັດທາງດ້ານເທັກນິກ. ບ່ອນນີ້ແມ່ນບ່ອນທີ່ທ່ານໃຫ້ລາຍລະອຽດກ່ຽວກັບເທັກໂນໂລຢີແລະສະຖາປັດຕະຍະກຳ.</p>
+<p><strong>ຕົວຢ່າງ:</strong>
+/plan ແອັບພລິເຄຊັນເວັບຈະມີ frontend ເປັນ React ແລະ backend ເປັນ Python ໂດຍໃຊ້ Flask. ພວກເຮົາຈະໃຊ້ຖານຂໍ້ມູນ SQLite ຢູ່ໃນເຄື່ອງສຳລັບການເກັບຂໍ້ມູນ.</p>
+<p>AI ຈະນຳໃຊ້ຂໍ້ມູນຂອງທ່ານແລະຂໍ້ກຳນົດທີ່ມີຢູ່ແລ້ວເພື່ອສ້າງເອກະສານ <code>plan.md</code> ລະອຽດ, ເຊິ່ງລວມເຖິງຮູບແບບຂໍ້ມູນ, API endpoints, ແລະພາບລວມຂອງສະຖາປັດຕະຍະກຳ.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ຂັ້ນຕອນທີ-4-ແຍກຍ່ອຍເປັນໜ້າວຽກ-tasks">ຂັ້ນຕອນທີ 4: ແຍກຍ່ອຍເປັນໜ້າວຽກ (<code>/tasks</code>)<a href="https://phatsss.github.io/phatsss-blog/lo/blog/github-spec-kit#%E0%BA%82%E0%BA%B1%E0%BB%89%E0%BA%99%E0%BA%95%E0%BA%AD%E0%BA%99%E0%BA%97%E0%BA%B5-4-%E0%BB%81%E0%BA%8D%E0%BA%81%E0%BA%8D%E0%BB%88%E0%BA%AD%E0%BA%8D%E0%BB%80%E0%BA%9B%E0%BA%B1%E0%BA%99%E0%BB%9C%E0%BB%89%E0%BA%B2%E0%BA%A7%E0%BA%BD%E0%BA%81-tasks" class="hash-link" aria-label="ລິ້ງໂດຍຕົງໄປຫາ ຂັ້ນຕອນທີ-4-ແຍກຍ່ອຍເປັນໜ້າວຽກ-tasks" title="ລິ້ງໂດຍຕົງໄປຫາ ຂັ້ນຕອນທີ-4-ແຍກຍ່ອຍເປັນໜ້າວຽກ-tasks">​</a></h3>
+<p>ຂັ້ນຕອນຕໍ່ໄປແມ່ນການແຍກແຜນການອອກເປັນໜ້າວຽກນ້ອຍໆທີ່ສາມາດປະຕິບັດໄດ້. ໃຊ້ຄຳສັ່ງ <code>/tasks</code> ເພື່ອສ້າງລາຍການກວດສອບ (checklist) ຂອງສິ່ງທີ່ຕ້ອງເຮັດ.</p>
+<p><strong>ຕົວຢ່າງ:</strong>
+/tasks</p>
+<p>AI ຈະວິເຄາະເອກະສານ <code>plan.md</code> ແລະສ້າງເອກະສານ <code>tasks.md</code> ພ້ອມກັບລາຍການກວດສອບເຊັ່ນນີ້:</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>ໜ້າວຽກ 1: ຕັ້ງຄ່າໂຄງສ້າງໂຄງການ</strong> (ໂຟນເດີ frontend ແລະ backend)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>ໜ້າວຽກ 2: ປະຕິບັດ database schema</strong> (ການຕັ້ງຄ່າແລະການຍ້າຍຖານຂໍ້ມູນ SQLite)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>ໜ້າວຽກ 3: ສ້າງ RESTful API endpoint ສຳລັບນິໄສ</strong> (ສ້າງ, ອ່ານ, ອັບເດດ)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>ໜ້າວຽກ 4: ສ້າງ React component ສຳລັບ habit dashboard ຫຼັກ</strong></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>ໜ້າວຽກ 5: ເພີ່ມໜ້າເບິ່ງປະຫວັດສຳລັບນິໄສທີ່ສຳເລັດແລ້ວ</strong></li>
+<li>...ແລະອື່ນໆ.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ຂັ້ນຕອນທີ-5-ປະຕິບັດລະຫັດ-code">ຂັ້ນຕອນທີ 5: ປະຕິບັດລະຫັດ (<code>/code</code>)<a href="https://phatsss.github.io/phatsss-blog/lo/blog/github-spec-kit#%E0%BA%82%E0%BA%B1%E0%BB%89%E0%BA%99%E0%BA%95%E0%BA%AD%E0%BA%99%E0%BA%97%E0%BA%B5-5-%E0%BA%9B%E0%BA%B0%E0%BA%95%E0%BA%B4%E0%BA%9A%E0%BA%B1%E0%BA%94%E0%BA%A5%E0%BA%B0%E0%BA%AB%E0%BA%B1%E0%BA%94-code" class="hash-link" aria-label="ລິ້ງໂດຍຕົງໄປຫາ ຂັ້ນຕອນທີ-5-ປະຕິບັດລະຫັດ-code" title="ລິ້ງໂດຍຕົງໄປຫາ ຂັ້ນຕອນທີ-5-ປະຕິບັດລະຫັດ-code">​</a></h3>
+<p>ເມື່ອໜ້າວຽກຖືກກຳນົດແລ້ວ, ທ່ານສາມາດໃຊ້ຄຳສັ່ງ <code>/code</code> ເພື່ອເລີ່ມຕົ້ນປະຕິບັດລະຫັດສຳລັບແຕ່ລະໜ້າວຽກ.</p>
+<p><strong>ຕົວຢ່າງ:</strong>
+ສົມມຸດວ່າທ່ານຕ້ອງການປະຕິບັດໜ້າວຽກທີ 2. ທ່ານຈະໃຊ້ຄຳສັ່ງທີ່ຄ້າຍຄືກັບນີ້:
+/code ປະຕິບັດ database schema ສຳລັບ habit tracker. schema ຄວນມີ habits table ພ້ອມດ້ວຍ id, name, ແລະ completed_at fields.</p>
+<p>AI ຈະນຳໃຊ້ຂໍ້ກຳນົດ, ແຜນການ, ແລະຄຳອະທິບາຍໜ້າວຽກເພື່ອຂຽນລະຫັດທີ່ຈຳເປັນ ຫຼືໄຟລ໌ທັງໝົດໃຫ້ທ່ານ, ເຊິ່ງທ່ານສາມາດກວດສອບແລະ commit ໄດ້. ຂະບວນການນີ້ຈະຖືກເຮັດຊ້ຳສຳລັບແຕ່ລະໜ້າວຽກຈົນກວ່າໂຄງການຈະສຳເລັດ.</p>]]></content>
+        <author>
+            <name>Phatsss</name>
+            <uri>https://github.com/phatsss</uri>
+        </author>
+        <category label="github" term="github"/>
+        <category label="spec-kit" term="spec-kit"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JavaScript EP7: Promises & Async/Await⏳🪄]]></title>
         <id>https://phatsss.github.io/phatsss-blog/lo/blog/promises-async-await-in-javascript</id>

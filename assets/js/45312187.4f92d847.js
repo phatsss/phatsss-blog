@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkphatsss_blog=self.webpackChunkphatsss_blog||[]).push([[2538],{2830:s=>{s.exports=JSON.parse('{"metadata":{"permalink":"/phatsss-blog/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":19,"nextPage":"/phatsss-blog/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

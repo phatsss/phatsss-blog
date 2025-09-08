@@ -4,10 +4,75 @@
         <title>phatsss Blog</title>
         <link>https://phatsss.github.io/phatsss-blog/blog</link>
         <description>phatsss Blog</description>
-        <lastBuildDate>Sat, 06 May 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Sep 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[GitHub Spec Kit]]></title>
+            <link>https://phatsss.github.io/phatsss-blog/blog/github-spec-kit</link>
+            <guid>https://phatsss.github.io/phatsss-blog/blog/github-spec-kit</guid>
+            <pubDate>Mon, 08 Sep 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub Spec Kit]]></description>
+            <content:encoded><![CDATA[<p>This guide will walk you through the process of setting up and using GitHub Spec Kit on a Mac with an Apple silicon chip. Spec Kit is a toolkit for a new approach called Spec-Driven Development (SDD), where you use AI agents to generate code based on a clear specification.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="prerequisites">Prerequisites<a href="https://phatsss.github.io/phatsss-blog/blog/github-spec-kit#prerequisites" class="hash-link" aria-label="Direct link to Prerequisites" title="Direct link to Prerequisites">​</a></h3>
+<p>Before you begin, ensure your Mac with Apple silicon has the following:</p>
+<ul>
+<li><strong>macOS</strong>: A recent version of macOS.</li>
+<li><strong>Git</strong>: Git should be installed and configured. You can check by running <code>git --version</code> in your terminal.</li>
+<li><strong>Python 3.11+</strong></li>
+<li><strong>uv</strong>: This is a fast Python package installer and resolver.</li>
+<li><strong>A Coding Agent</strong>: Spec Kit works with various AI coding agents like GitHub Copilot, Claude Code, or Gemini CLI.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-1-install-uv-and-spec-kit">Step 1: Install <code>uv</code> and Spec Kit<a href="https://phatsss.github.io/phatsss-blog/blog/github-spec-kit#step-1-install-uv-and-spec-kit" class="hash-link" aria-label="Direct link to step-1-install-uv-and-spec-kit" title="Direct link to step-1-install-uv-and-spec-kit">​</a></h3>
+<p>First, you need to install <code>uv</code>, which is a prerequisite for Spec Kit. Then, use <code>uv</code> to initialize a new project with Spec Kit.</p>
+<p>Open your <strong>Terminal</strong> and run the following commands:</p>
+<ol>
+<li><strong>Install uv (if you don't have it):</strong>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">curl -LsSf [https://astral.sh/uv/install.sh](https://astral.sh/uv/install.sh) | sh</span><br></span></code></pre></div></div>
+</li>
+<li><strong>Initialize a new project with Spec Kit:</strong>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">uvx --from git+[https://github.com/github/spec-kit.git](https://github.com/github/spec-kit.git) specify init &lt;PROJECT_NAME&gt;</span><br></span></code></pre></div></div>
+<!-- -->Replace <code>&lt;PROJECT_NAME&gt;</code> with the name of your project. This command automatically sets up the project structure with the necessary templates.</li>
+</ol>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-2-create-a-specification-specify">Step 2: Create a Specification (<code>/specify</code>)<a href="https://phatsss.github.io/phatsss-blog/blog/github-spec-kit#step-2-create-a-specification-specify" class="hash-link" aria-label="Direct link to step-2-create-a-specification-specify" title="Direct link to step-2-create-a-specification-specify">​</a></h3>
+<p>The core of SDD is the specification. This is where you describe what you want to build in a clear and detailed manner. Use the <code>/specify</code> command with your AI coding agent (e.g., in a code editor like VS Code or a supported chat interface).</p>
+<p><strong>Example:</strong>
+/specify Build a simple web application that tracks a user's daily habits, like "drink water" or "exercise." It should allow the user to add new habits, mark a habit as complete for the day, and view a history of their completed habits.</p>
+<p>The AI will then ask clarifying questions and generate a detailed <code>spec.md</code> file, which outlines the project's features and requirements.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-3-generate-a-technical-plan-plan">Step 3: Generate a Technical Plan (<code>/plan</code>)<a href="https://phatsss.github.io/phatsss-blog/blog/github-spec-kit#step-3-generate-a-technical-plan-plan" class="hash-link" aria-label="Direct link to step-3-generate-a-technical-plan-plan" title="Direct link to step-3-generate-a-technical-plan-plan">​</a></h3>
+<p>Once the specification is clear, you use the <code>/plan</code> command to create a technical implementation plan. This is where you provide details about the technology stack and architecture.</p>
+<p><strong>Example:</strong>
+/plan The web app will have a React frontend and a Python backend using Flask. We'll use a local SQLite database for data storage.</p>
+<p>The AI will use your input and the existing spec to generate a detailed <code>plan.md</code> file, which includes data models, API endpoints, and a high-level architectural overview.</p>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-4-break-down-into-tasks-tasks">Step 4: Break Down into Tasks (<code>/tasks</code>)<a href="https://phatsss.github.io/phatsss-blog/blog/github-spec-kit#step-4-break-down-into-tasks-tasks" class="hash-link" aria-label="Direct link to step-4-break-down-into-tasks-tasks" title="Direct link to step-4-break-down-into-tasks-tasks">​</a></h3>
+<p>The next step is to break down the plan into smaller, actionable tasks. Use the <code>/tasks</code> command to generate a checklist of to-dos.</p>
+<p><strong>Example:</strong>
+/tasks</p>
+<p>The AI will analyze the <code>plan.md</code> and generate a <code>tasks.md</code> file with a checklist like this:</p>
+<ul class="contains-task-list containsTaskList_mC6p">
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Task 1: Set up the project structure</strong> (frontend and backend directories)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Task 2: Implement the database schema</strong> (SQLite setup and migration)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Task 3: Create a RESTful API endpoint for habits</strong> (create, read, update)</li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Task 4: Build the React component for the main habit dashboard</strong></li>
+<li class="task-list-item"><input type="checkbox" disabled=""> <strong>Task 5: Add a history view for completed habits</strong></li>
+<li>...and so on.</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="step-5-implement-the-code-code">Step 5: Implement the Code (<code>/code</code>)<a href="https://phatsss.github.io/phatsss-blog/blog/github-spec-kit#step-5-implement-the-code-code" class="hash-link" aria-label="Direct link to step-5-implement-the-code-code" title="Direct link to step-5-implement-the-code-code">​</a></h3>
+<p>With the tasks defined, you can now use the <code>/code</code> command to start implementing the code for each task.</p>
+<p><strong>Example:</strong>
+Let's say you want to implement Task 2. You would use a command similar to this:
+/code Implement the database schema for the habit tracker. The schema should include a habits table with id, name, and completed_at fields.</p>
+<p>The AI will use the spec, plan, and task descriptions to write the necessary code snippets or full files for you, which you can then review and commit. This process is repeated for each task until the project is complete.</p>]]></content:encoded>
+            <category>github</category>
+            <category>spec-kit</category>
+        </item>
         <item>
             <title><![CDATA[JavaScript EP7: Promises & Async/Await⏳🪄]]></title>
             <link>https://phatsss.github.io/phatsss-blog/blog/promises-async-await-in-javascript</link>
