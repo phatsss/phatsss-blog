@@ -48,7 +48,7 @@
     "description": "ປ້າຍກຳກັບ ARIA ສຳລັບເສັ້ນທາງ"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 ລາຍການ|{count} ລາຍການ",
+    "message": "{count} ລາຍການ",
     "description": "ຄຳອະທິບາຍໝວດໝູ່"
   },
   "theme.docs.paginator.navAriaLabel": {
@@ -76,7 +76,7 @@
     "description": "ຊື່ໂໝດແຈ້ງ"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "ເອກະສານ 1 ລາຍການ|ເອກະສານ {count} ລາຍການ",
+    "message": "ເອກະສານ {count} ລາຍການ",
     "description": "ປ້າຍກຳກັບຈຳນວນເອກະສານ"
   },
   "theme.docs.tagDocListPageTitle": {
@@ -219,7 +219,7 @@
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "ອ່ານໃນ 1 ນາທີ|ອ່ານໃນ {readingTime} ນາທີ",
+    "message": "ອ່ານໃນ {readingTime} ນາທີ",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.breadcrumbs.home": {
@@ -259,7 +259,7 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.blog.post.plurals": {
-    "message": "1 ຂໍ້ຄວາມ|{count} ຂໍ້ຄວາມ",
+    "message": "{count} ຂໍ້ຄວາມ",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
@@ -322,7 +322,7 @@
     "message": "ທົ່ວໄປ"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "ພົບເອກະສານ 1 ລາຍການ|ພົບ {count} ເອກະສານ",
+    "message": "ພົບ {count} ເອກະສານ",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.noResultsText": {
