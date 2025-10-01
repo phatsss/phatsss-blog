@@ -23,7 +23,7 @@ export default function Home(): JSX.Element {
         <Hero />
         <LogoLoopComponent />
         {/* <ProfileCard /> */}
-        <WorkExperience />
+        {/* <WorkExperience /> */}
         <Services />
         <Portfolio />
         <SideProjects />
